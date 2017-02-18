@@ -167,4 +167,284 @@ Developed a system for classifying the cardiovascular health of patients based o
 
 
 
+---
+### Incentive System to Improve Smartphone Battery Life in a Device-to-Device Network
+##### March 2014 - June 2014
+
+We proposed and simulated a system which incentivized smartphone users to share bandwidth over Device-to-Device relays overlaid on an LTE based mobile network. The intent was to redistribute battery life across a swarm of smartphones to optimize overall usage of available energy while discouraging unfair play between users. 
+
+
+
+---
+### NATCAR Design Project
+##### September 2013 - March 2014
+
+- Designed and built an autonomous vehicle to compete in the NATCAR competition
+- Implemented Canny edge detection theorem for robust vision control
+- Wrote and tuned PID control loop to smoothly traverse the course
+
+
+
+---
+### Bandwidth Cost Offset via Wireless Hotspot Advertisements
+##### March 2013 - June 2013
+
+We proposed and developed a prototype hybrid captive portal and advertisement injection scheme system on a consumer grade wireless router. The intent was to create a system that would offer a monetary incentive to noncommercial AP owners to share bandwidth with foreign guests, while also improving network connectivity for mobile clients through access to 802.11 based networks.
+
+
+
+
+---
+### FIRST Robotics
+##### January 2010 - April 2010
+
+- Cofounded FIRST robotics competitive team. Co-lead team to competition at UC Davis
+- Taught myself C++ to program robot's manual and autonomous functions 
+- Connected and soldered onboard cRIO, digital sidecar, and other electrical parts 
+- Implemented algorithms to autonomously move around, detect, and kick a soccer ball
+
+
+
+
+---
+### jBus
+##### March 2014
+
+I created an iPhone app which continuously fetches the next 5 bus arrival times at the stops closest to my apartment and displays them on screen with visual color-based reminders. I mounted an old iPhone next to my desk and ran this app continuously, and never missed the bus again!
+
+
+
+## Skills & Endorsements
+
+- Machine Learning
+- C++
+- Statistical Modeling
+- Python
+- Matlab
+- Data Analytics
+- R
+- Predictive Modeling
+- Data Mining
+- Linux
+- Perl
+- Objective-C
+- Swift
+- Microcontrollers
+- Embedded Systems
+- System Testing
+- Web Development
+- Unix
+- Robotics
+- Communication
+- Git
+- Bash
+- Java
+- iOS Development
+- Android Development
+- SQL
+- Data Visualization
+- C
+- Tableau
+
+
+
+## Volunteer
+
+---
+### Team Mentor
+##### January 2013 - April 2014
+
+Founded and later returned to mentor FIRST Robotics team 3257.
+
+- Volunteer hundreds of hours instructing concepts of robotics to high school students
+- Foster professionalism and soft skills throughout six week build season
+- Volunteer for Sacramento Regional Competition, facilitate pit organization
+
+
+
+
+---
+### Volunteer Instructor
+##### April 2012
+
+I volunteered at UC Riverside's IEEE Merit Badge Day to teach over a hundred Boy Scouts basic principles of Engineering in order for them to earn their Energy, Engineering, and Robotics merit badges. 
+
+
+### Opportunities you are looking for:
+
+- Joining a nonprofit board
+- Skills-based volunteering (pro bono consulting)
+
+### Causes you care about:
+
+- Arts and Culture
+- Economic Empowerment
+- Education
+- Environment
+- Health
+- Human Rights
+- Disaster and Humanitarian Relief
+- Science and Technology
+
+### Organizations you support:
+
+- FIRST
+- CERN
+
+
+
+## Organizations 
+
+---
+### Tau Beta Pi
+#### Member, Corresponding Secretary (13-14), Webmaster (13-14)
+##### Starting June 2012
+
+- Coordinate and facilitate communications between national headquarters and local chapter
+- Complete redesign of local chapter web presence 
+
+
+
+
+
+---
+### Institute of Electrical and Electronics Engineers
+#### Member
+##### Starting September 2010
+
+- Participate in chapter social and professional activities
+- Participate in Micromouse robotics workshops
+- Volunteer for IEEE Boy Scouts Merit Badge Day
+
+
+
+
+
+
+---
+### Association for Computing Machinery
+#### Member
+##### Starting September 2010
+
+
+
+## Honors and Awards
+
+--- 
+### UC Davis Undergraduate Scholarship
+#### University of California, Davis
+##### September 2012
+
+
+--- 
+### Elizabeth Power Wood Scholarship
+#### University of California, Davis
+##### October 2012
+
+
+--- 
+### 2014 Union Pacific Scholarship
+#### University of California, Davis College of Engineering
+##### May 2014
+
+
+--- 
+### 2014 Great Lakes National Scholarship
+#### Great Lakes Higher Education Corporation & Affiliates
+##### July 2014
+
+
+
+
+## Education
+
+--- 
+### University of California, Los Angeles
+#### Master's Degree, Computer Science
+##### 2014 - 2016
+
+Research emphasis in artificial intelligence, machine learning, and health analytics under the advisement of Professor Majid Sarrafzadeh.
+
+
+
+--- 
+### University of California, Davis
+#### Bachelor of Science (B.S.), Computer Engineering
+##### 2012 - 2014
+
+Graduated in June 2014
+
+Computer Engineering major representative in the Electrical & Computer Engineering Undergraduate Program Committee
+
+
+
+
+
+--- 
+### University of California, Riverside
+#### Bachelor of Science (B.S.), Computer Engineering
+##### 2010 - 2012
+
+Deans Honors List
+
+
+
+
+## Courses
+
+--- 
+### University of California, Riverside
+
+- Object Oriented Programming I/II (CS10/12)
+- Discrete Structures I/II (CS11/111)
+- Data Structures and Algorithms (CS14)
+- Software Construction (CS100)
+- Electrical Circuit Analysis I/II (EE01A/B)
+- Physics: Mechanics, Thermodynamics, Electrostatics, Fluid Dynamics (PHYS40A/B/C)
+- Calculus I/II/III (MATH9A/B/C)
+- Multivariable Calculus (MATH10A)
+- Differential Equations (MATH46)
+- Sequential and Prepositional Logic (PHIL08)
+- Linear Algebra/Matlab (MATH113)
+- C++11 (CS290)
+- Machine Organization/Assembly Language (CS61)
+
+
+---
+### University of California, Davis
+
+- Semiconductor Device Physics I (EEC140A)
+- Digital Systems I/II (EEC180A/B)
+- Physics: Quantum, Nuclear, Optic (PHYS09D)
+- Analog Electronic Circuits (EEC110A)
+- Computer Networks & Projects (EEC173A/B)
+- Operating Systems (ECS150)
+- Computer Architecture (EEC170)
+- NATCAR Design Project (EEC195A/B)
+- Issues in Engineering Design (EEC196)
+- Embedded Systems (EEC172)
+- Algorithm Design (ECS122A)
+- Probability Theory (STA131A)
+- Research Group/Directed Study (EEC190C/198)
+- Network Architecture and Resource Management (EEC273)
+
+
+---
+### University of California, Los Angeles
+
+- Seminar on Current Topics (CS201)
+- System Design/Architecture (CS259)
+- Machine Learning (CS260)
+- Databases (CS143)
+- Health Analytics (CS239)
+- Data Science (CS249)
+- Computer Science Classics (CS259)
+- Computer Security (CS259)
+- Algorithmic Machine Learning (CS289ML)
+- Software Engineering (CS130)
+- Artificial Intelligence (CS161)
+- Algorithms (CS180)
+- Intellectual Property for Technology Entrepreneurs and Managers (EE293)
+- Cryptography (CS282A)
+
 
