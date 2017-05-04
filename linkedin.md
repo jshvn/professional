@@ -1,14 +1,17 @@
 # LinkedIn profile
 
+## Headline
+
+Scientist. Engineer. Storyteller. Influencer. 
+
 ## Summary
 
-I love technology. I love building things. I love challenging myself to learn more. I thrive in environments that are fast-paced and unfamiliar. I strive to get things done.
+I am on a mission to transform data at scale into meaningful and breakthrough narratives. I am dedicated to democratizing information to empower people to make sound decisions.
 
-I'm a data scientist, computer scientist, and engineer employed at Adobe. 
+The last few years of my life have been some of the most fundamentally transformational ones yet, and I am ridiculously excited to see what is next. 
 
-My long-term goal is to quantify aggregate human behavior in meaningful and impactful ways. 
-
-Connect with me or drop me a line at: josh.vaughen@gmail.com
+Lets tell a story together. Connect with me on LinkedIn @iJosh or at iJosh.com
+Or contact me directly at josh.vaughen@gmail.com
 
 
 ## Experience
@@ -19,7 +22,13 @@ Connect with me or drop me a line at: josh.vaughen@gmail.com
 ##### August 2016 - Present
 ##### San Jose, CA
 
-I'm extremely excited and proud to announce that I have recently started at Adobe as a data scientist within the Document Cloud mobile organization! 
+Being the first data science professional in the Document Cloud Mobile organization, I have the responsibility of laying the foundation of a culture that engages with aggregated customer stories to better inform business decisions.
+
+I also have the responsibility of building out our reporting and anomaly detection infrastructure, which processes and aggregates product usage, sentiment, crash, and other data to help us understand what our customers are telling us.
+
+I am extremely fortunate to work with an incredibly talented and diverse team as we tackle complex problems at scale. 
+
+
 
 
 ---
