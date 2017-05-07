@@ -2,15 +2,17 @@
 
 ## Headline
 
-Scientist. Engineer. Storyteller. Influencer. 
+Scientist. Engineer. Storyteller. Traveler. 
 
 ## Summary
 
 I am on a mission to transform data at scale into meaningful and breakthrough narratives. I am dedicated to democratizing information to empower people to make sound decisions.
 
+I love traveling. I strive to immerse myself in new cultures and new experiences to gain broader perspective, and later translate those adventures into stories with data. 
+
 The last few years of my life have been some of the most fundamentally transformational ones yet, and I am ridiculously excited to see what is next. 
 
-Lets tell a story together. Connect with me on LinkedIn @iJosh or at iJosh.com
+Let us tell a story together. Connect with me on LinkedIn @iJosh or at iJosh.com
 Or contact me directly at josh.vaughen@gmail.com
 
 
@@ -26,7 +28,7 @@ Being the first data science professional in the Document Cloud Mobile organizat
 
 I also have the responsibility of building out our reporting and anomaly detection infrastructure, which processes and aggregates product usage, sentiment, crash, and other data to help us understand what our customers are telling us.
 
-I am extremely fortunate to work with an incredibly talented and diverse team as we tackle complex problems at scale. 
+I am extremely fortunate to work with an incredibly talented and diverse team, and I look forward to continuing to solve complex problems at scale with them.
 
 
 
@@ -39,7 +41,7 @@ I am extremely fortunate to work with an incredibly talented and diverse team as
 
 I was a Graduate Teaching Assistant for CS35L Software Construction Laboratory. I led lectures and labs several times a week, as well as held recurring office hours and review sessions before exams.
 
-- Led lecture
+- Led lecture 3x weekly, office hours 2x weekly
 - Prepared slides, notes, and example materials
 - Wrote and graded homework and exams
 
