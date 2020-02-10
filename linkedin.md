@@ -2,49 +2,113 @@
 
 ## Headline
 
-Scientist. Engineer. Storyteller. Traveler. 
+Data Scientist | Machine Learning Engineer | Adobe
 
 ## Summary
 
-I am on a mission to transform data at scale into meaningful and breakthrough narratives. I am dedicated to democratizing information to empower people to make sound decisions.
+Obsessive reader, learner, traveler. Firm believer in learning on the fly. Failure forces growth.
 
-I love traveling. I strive to immerse myself in new cultures and new experiences to gain broader perspective, and later translate those adventures into stories with data. 
-
-The last few years of my life have been some of the most fundamentally transformational ones yet, and I am ridiculously excited to see what is next. 
-
-Let us tell a story together. Connect with me on LinkedIn @iJosh or at iJosh.com
-Or contact me directly at josh.vaughen@gmail.com
+Connect with me directly on LinkedIn, or securely via https://keybase.io/ijosh
 
 
 ## Experience
 
----
-### Data Scientist
+
+### Machine Learning Engineer IV
 #### Adobe 
-##### August 2016 - Present
+##### January 2020 - Present
+##### Seattle, WA
+
+Jan 2020 - Present
+Document Cloud Data Science  | Adobe Document Cloud
+
+Products:
+
+* Acrobat, Scan
+
+Overview:
+
+Recently pivoted roles and joined a team focused squarely on machine learning projects including modeling user behavior patterns, building recommender systems for high-value workflows, predicting actions and conversion rates, and a number of other immediate tasks. I am very excited for this new opportunity!
+
+
+
+
+### Data Scientist III
+#### Adobe
+##### January 2018 - January 2020
 ##### San Jose, CA
 
-Being the first data science professional in the Document Cloud Mobile organization, I have the responsibility of laying the foundation of a culture that engages with aggregated customer stories to better inform business decisions.
+Nov 2018 - Jan 2020
+Mobile Experimentation and Optimization | Adobe Document Cloud
 
-I also have the responsibility of building out our reporting and anomaly detection infrastructure, which processes and aggregates product usage, sentiment, crash, and other data to help us understand what our customers are telling us.
+Jan 2018 - Nov 2018
+Core Development  | Adobe Document Cloud
 
-I am extremely fortunate to work with an incredibly talented and diverse team, and I look forward to continuing to solve complex problems at scale with them.
+Products:
+
+* Acrobat, Scan, Sign, Fill & Sign
+* Adobe mobile PDF rendering engine
+* Adobe mobile document classification engine
+
+Overview:
+
+Took ownership of KPI definition and measurement across multiple products and teams with a standardized model still in use today. Then later joined a small tiger team focused on testing and optimization of our mobile products where I was the sole Data Scientist in charge of experiment creation and measurement, learnings and analyses, attribution modeling, retention modeling, and a number of other tasks.
+
+Highlights:
+* Led analysis and published learnings from in-product and pricing experimentation for optimization-focused tiger team; experimentation and learnings led to 2x net growth in ARR over year
+* Activation and retention modeling for optimization team across features and subscriptions that is used to inform pricing and offer strategy for go-to-market team
+* Wrote last-touch purchase attribution model used to further refine Document Cloud verb impact and strategy
+* Introduced instrumentation and technique that enabled customer journey centric analyses for multiple teams 
+* Invited to give talks at UC Davis and San Jose State focused on personal experience and technical challenges faced in various projects
+* Adobe Ambassador in recruiting for San Jose State, UC Berkeley, UCLA, Univeristy of Washington; interviewed students for both full time and intern positions
+* Won Document Cloud Star of the Month for pre-emptive KPI definition and measurement for the successful launch of the Adobe Scan mobile application
+* Mentored another intern on an anomaly detection project during his summer internship
+
+
+
+### Data Scientist II
+#### Adobe
+##### August 2016 - January 2018
+##### San Jose, CA
+
+Aug 2016 - Jan 2018
+Core Development  | Adobe Document Cloud
+
+Products:
+
+* Acrobat, Scan, Sign, Fill & Sign
+* Adobe mobile PDF rendering engine
+
+Overview:
+
+Joined the Document Cloud Mobile organization with the goal of creating a culture of data-driven decision making across Product, Engineering, and Marketing. Worked directly with many stakeholders from all groups on several projects spread across all four Document Cloud mobile applications.
+
+Highlights:
+
+* Defined parameters for and lead analysis on a series of A/B/C experiments that lead to a 23x increase in signed-in userbase in Acrobat
+* Worked with stakeholders across the broader organization to create and unify a KPI reporting framework for our mobile products which is still used to present
+* Created and maintained infrastructure based on open source technologies including Jenkins and Airflow that manages dataflows for multiple teams across the organization to present
+* Developed crash alert notification system using a standard ARIMA model and later using STL decomposition with Loess smoothing
+* Mentored a summer intern on a project building a real-time web-based visualization platform using AngularJS and Adobe Analytics firehose API
 
 
 
 
----
+
+
 ### Graduate Teaching Assistant
 #### UCLA
 ##### March 2015 - June 2016
 ##### Los Angeles, CA
 
+Overview:
+
 I was a Graduate Teaching Assistant for CS35L Software Construction Laboratory. I led lectures and labs several times a week, as well as held recurring office hours and review sessions before exams.
 
-- Led lecture 3x weekly, office hours 2x weekly
-- Prepared slides, notes, and example materials
-- Wrote and graded homework and exams
+Highlights:
 
+- Led lecture 3x weekly, office hours 2x weekly
+- Wrote and graded homework and exams
 
 
 
@@ -54,13 +118,16 @@ I was a Graduate Teaching Assistant for CS35L Software Construction Laboratory. 
 ##### June 2015 - September 2015
 ##### San Jose, CA
 
-I joined the iOS Acrobat team to continue my growth on the iOS and watchOS platforms and to make a lasting impact to a well known and established product and user base.
+Overview:
 
-- Proposed and drove development of a prototype presentation control app for Acrobat on Apple Watch OS2
-- Utilized several Apple Watch hardware features to create an immersive and intuitive presentation experience
-- Implemented several new features on iOS Acrobat, worked on framework for Dropbox integrations
-- Winner of Intern Project Expo in San Jose for the second year in a row for Apple Watch work
+Joined the Acrobat iOS team to grow my knowledge of iOS and watchOS. Developed a prototype Apple Watch integration with Acrobat that was ahead of its time. Worked on initial Dropbox integration with Acrobat.
 
+Highlights:
+
+- Proposed and developed a prototype presentation control companion application for Acrobat on the Apple Watch
+- Utilized Core Motion API to detect and react to hand gestures, allowing user to control their presentation without button pressing
+- Worked on initial Dropbox cloud provider filesystem integration within Acrobat iOS
+- Winner of the 2015 Intern Project Expo in San Jose for the second year in a row for Apple Watch work
 
 ---
 ### Software Engineering Intern - Mobile App Development
@@ -68,40 +135,23 @@ I joined the iOS Acrobat team to continue my growth on the iOS and watchOS platf
 ##### June 2014 - September 2014
 ##### San Jose, CA
 
-I joined the Adobe Sign Mobile team at Adobe to learn and practice iOS development within the SCRUM development process, and to have the opportunity to have a tangible impact on a large audience of customers. 
+Overview:
 
-- Implemented four new features, fixed several existing bugs, improved usability of several views
-- Designed, implemented, and demoed a new prototype UX for my HackWeek project
+Joined the Adobe Sign team to develop the iOS application. Learned iOS and general software development methodologies on the fly.
+
+Highlights:
+
+- Implemented four new features, fixed several existing bugs, improved usability of several interfaces
+
+- Designed, implemented, and demoed a new prototype Sign UI/UX for my HackWeek project
+
 - Wrote automated tests for iPhone/iPad on new Appium-based automation framework 
+
 - Completed Green Belt security training for C/C++ developers 
-- Winner of the 2014 "Most Innovative Intern Project" award at the San Jose Intern Project Expo
 
+- Winner of the 2014 Intern Project Expo in San Jose for UI/UX and automation work
 
-
----
-### Peer Advisor
-#### UC Davis ECE Department
-##### February 2014 - June 2014
-##### Davis, CA
-
-- Advised students on course planning, campus resources, and procedures
-- Assisted undergraduate and graduate advisors with miscellaneous projects
-- Represented ECE department at various campus events
-
-
-
----
-### Undergraduate Research Assistant, Professor Chen-Nee Chuah
-#### UC Davis RUbiNet Laboratory
-##### September 2013 - June 2014
-##### Davis, CA
-
-I joined the SCRUB (Secure Computer Research for Users' Benefit) project to explore applying novel techniques to detecting anomalous wireless network traffic through URL activity analysis via deep packet inspection and decompiled mobile application source code analysis.
-
-- Developed engine in Python to verify millions of malicious URLs against VirusTotal
-
-
-
+  
 
 ---
 ### Software QA Engineering Intern
@@ -109,27 +159,18 @@ I joined the SCRUB (Secure Computer Research for Users' Benefit) project to expl
 ##### June 2013 - December 2013
 ##### Sunnyvale, CA
 
-I joined the automation team at Aruba to continue my exploration of the field of computer networking, to develop an automated testing platform that combined a Raspberry Pi with a Roomba, and to write control software for a pan-tilt servo system in order to automate various 802.11 RF tests. 
+Overview:
 
-- Designed and built new automated mobility testing infrastructure in one month 
-- Developed control and integration software for six free-roaming robots
-- Wrote software API to control two next-generation RF heat mapping apparatus 
+Joined the hardware automation team at Aruba to develop an automated testing platform based on commodity hardware (Raspberry Pi, Roomba robots) and a pan-tilt servo system. This platform was used to automate physical world interaction and 802.11 RF tests.
+
+Highlights:
+
+* Wrote a controlling wrapper API over existing Roomba microcode to simplify and more robustly control the platform
+* Wrote orchestration platform and API to automate control of six free-roaming robots, effectively swarm control, including collision detection and avoidance
+* Wrote controlling API for commodity pan-tilt servo system such that RF heatmaps could be profiled in multiple orientations via automation
+
 - Successfully completed ACMA and ACMP certification courses
-- Presented project outcomes at Aruba Tech Talk, featured on corporate blog
-
-
-
-
----
-### Student IT Assistant
-#### UC Davis NEES Center for Geotechnical Modeling
-##### November 2012 - June 2013
-##### Davis, CA
-
-- Built data acquisition infrastructure for terabytes of data processing and storage
-- Administered servers supporting: AD, NFS, DNS, WSUS, Backups, Web, staff
-- Optimized distribution of data center resources for huge reduction in service time
-
+- Presented project outcomes at Aruba Tech Talk; was the Featured Intern on corporate blog
 
 
 
@@ -139,34 +180,19 @@ I joined the automation team at Aruba to continue my exploration of the field of
 ##### June 2012 - September 2012
 ##### Rocklin, CA
 
-I joined the Research and Development Engineering team to build an automated firmware verification and testing system, and to develop test tools and frameworks for the now-released GalilSuite application. 
+Overview:
 
-- Created an automated firmware verification system supporting tens of controllers
-- Ensured timely release of GalilSuite product by building an automated test framework 
-- Rewrote existing test software for 100% improvement in execution time
-- Constructed portable (Windows/Linux) tool for auditing GalilSuite server API
+Joined the Research and Development Engineering team to build an automated firmware verification and testing system. I also developed tooling frameworks for the now-released GalilSuite application.
 
+Highlights:
 
+* Rewrote existing test software reducing execution time in half
+* Wrote automated firmware verification system with ability to simultaneously support tens of controllers
+* Wrote portable (Windows/Linux) tool for GalilSuite server API audits
 
----
-### Academic Success Counselor
-#### University of California, Riverside
-##### June 2011 - June 2012
-##### Riverside, CA
-
-- Facilitate quarterly Academic Recovery Workshops and open door office hours
-- Provide knowledge of campus resources, student organizations, and success programs
-- Present introductory material in engineering classes
-- Confer knowledge of study skills, time management techniques, and priorities planning
 
 
 ## Projects
-
----
-### Carma - A solution to texting while driving
-##### April 2015 - March 2016
-
-My team and I developed a technological solution that solves the 'texting while driving' problem. The application, dubbed Carma, completely inhibits the identified driver from using selected applications on their Android device while operating a vehicle. Some clever code running on the Android device, a Raspberry Pi, and an interface with the vehicle via the onboard OBDII port allows us to accomplish this.  This work was completed under the guidance of Professor Majid Sarrafzadeh. Email me for our final research paper and details!
 
 
 
@@ -175,53 +201,6 @@ My team and I developed a technological solution that solves the 'texting while 
 ##### January 2015 - March 2015
 
 Developed a system for classifying the cardiovascular health of patients based on time series data consisting of their diastolic and systolic blood pressures. Implemented by hand k-nearest neighbor (KNN) and a back-propagating neural network to achieve ~80% classification accuracy on a sample dataset of 39 patients using 10-fold cross validation. Measured performance in terms of accuracy, precision, recall, sensitivity, specificity, F-measure, ROC curves, and confusion matrices. 
-
-
-
----
-### Incentive System to Improve Smartphone Battery Life in a Device-to-Device Network
-##### March 2014 - June 2014
-
-We proposed and simulated a system which incentivized smartphone users to share bandwidth over Device-to-Device relays overlaid on an LTE based mobile network. The intent was to redistribute battery life across a swarm of smartphones to optimize overall usage of available energy while discouraging unfair play between users. 
-
-
-
----
-### NATCAR Design Project
-##### September 2013 - March 2014
-
-- Designed and built an autonomous vehicle to compete in the NATCAR competition
-- Implemented Canny edge detection theorem for robust vision control
-- Wrote and tuned PID control loop to smoothly traverse the course
-
-
-
----
-### Bandwidth Cost Offset via Wireless Hotspot Advertisements
-##### March 2013 - June 2013
-
-We proposed and developed a prototype hybrid captive portal and advertisement injection scheme system on a consumer grade wireless router. The intent was to create a system that would offer a monetary incentive to noncommercial AP owners to share bandwidth with foreign guests, while also improving network connectivity for mobile clients through access to 802.11 based networks.
-
-
-
-
----
-### FIRST Robotics
-##### January 2010 - April 2010
-
-- Cofounded FIRST robotics competitive team. Co-lead team to competition at UC Davis
-- Taught myself C++ to program robot's manual and autonomous functions 
-- Connected and soldered onboard cRIO, digital sidecar, and other electrical parts 
-- Implemented algorithms to autonomously move around, detect, and kick a soccer ball
-
-
-
-
----
-### jBus
-##### March 2014
-
-I created an iPhone app which continuously fetches the next 5 bus arrival times at the stops closest to my apartment and displays them on screen with visual color-based reminders. I mounted an old iPhone next to my desk and ran this app continuously, and never missed the bus again!
 
 
 
@@ -270,7 +249,6 @@ Founded and later returned to mentor FIRST Robotics team 3257.
 - Volunteer hundreds of hours instructing concepts of robotics to high school students
 - Foster professionalism and soft skills throughout six week build season
 - Volunteer for Sacramento Regional Competition, facilitate pit organization
-
 
 
 
@@ -331,7 +309,6 @@ I volunteered at UC Riverside's IEEE Merit Badge Day to teach over a hundred Boy
 
 
 
-
 ---
 ### Association for Computing Machinery
 #### Member
@@ -341,25 +318,22 @@ I volunteered at UC Riverside's IEEE Merit Badge Day to teach over a hundred Boy
 
 ## Honors and Awards
 
---- 
+---
 ### UC Davis Undergraduate Scholarship
 #### University of California, Davis
 ##### September 2012
 
-
---- 
+---
 ### Elizabeth Power Wood Scholarship
 #### University of California, Davis
 ##### October 2012
 
-
---- 
+---
 ### 2014 Union Pacific Scholarship
 #### University of California, Davis College of Engineering
 ##### May 2014
 
-
---- 
+---
 ### 2014 Great Lakes National Scholarship
 #### Great Lakes Higher Education Corporation & Affiliates
 ##### July 2014
@@ -369,7 +343,7 @@ I volunteered at UC Riverside's IEEE Merit Badge Day to teach over a hundred Boy
 
 ## Education
 
---- 
+---
 ### University of California, Los Angeles
 #### Master's Degree, Computer Science
 ##### 2014 - 2016
@@ -378,7 +352,7 @@ Research emphasis in artificial intelligence, machine learning, and health analy
 
 
 
---- 
+---
 ### University of California, Davis
 #### Bachelor of Science (B.S.), Computer Engineering
 ##### 2012 - 2014
@@ -391,7 +365,7 @@ Computer Engineering major representative in the Electrical & Computer Engineeri
 
 
 
---- 
+---
 ### University of California, Riverside
 #### Bachelor of Science (B.S.), Computer Engineering
 ##### 2010 - 2012
@@ -403,7 +377,7 @@ Deans Honors List
 
 ## Courses
 
---- 
+---
 ### University of California, Riverside
 
 - Object Oriented Programming I/II (CS10/12)
@@ -419,7 +393,6 @@ Deans Honors List
 - Linear Algebra/Matlab (MATH113)
 - C++11 (CS290)
 - Machine Organization/Assembly Language (CS61)
-
 
 ---
 ### University of California, Davis
@@ -438,7 +411,6 @@ Deans Honors List
 - Probability Theory (STA131A)
 - Research Group/Directed Study (EEC190C/198)
 - Network Architecture and Resource Management (EEC273)
-
 
 ---
 ### University of California, Los Angeles
