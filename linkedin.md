@@ -20,17 +20,23 @@ Connect with me directly on LinkedIn, or securely via https://keybase.io/ijosh
 ##### Seattle, WA
 
 Jan 2020 - Present
-Document Cloud Data Science  | Adobe Document Cloud
+Document Cloud Data Science | Adobe Document Cloud
 
 Products:
 
-* Acrobat, Scan
+* Acrobat, Reader, Scan
 
 Overview:
 
-Recently pivoted roles and joined a team focused squarely on machine learning projects including modeling user behavior patterns, building recommender systems for high-value workflows, predicting actions and conversion rates, and a number of other immediate tasks. I am very excited for this new opportunity!
+Developed machine learning models for: new user on-boarding journey personalization in Acrobat, targeting attrition-risk customers for retention offers, identifying usage patterns and association rules for upsell, and other tasks. I also developed a platform-agnostic unified data model for sourcing data, a core python library to manage all data I/O and model artifacts across projects, and mentored multiple junior team members.
 
-
+Highlights:
+* Personalized new user in-product and email on-boarding journey by developing recommender system (latent factor model) to encourage users to engage with specific features
+* Identified top factors contributing to customer attrition during annual renewal cycle (attrition model, XGBoost) for retention offer targeting
+* Optimized an association rule learning model (apriori algorithm) to work with millions of customer records with reduced compute and time requirements
+* Developed unified data model and system (spanning desktop, web, mobile properties) that is being adopted as source for all team pipeline and machine learning projects
+* Designed a unified core library (python) that transparently handles authentication, model artifact management, model prediction I/O, data I/O, and other common tasks across projects
+* Interviewed, hired, and mentored multiple data engineers and interns
 
 
 ### Data Scientist III
@@ -206,10 +212,23 @@ Developed a system for classifying the cardiovascular health of patients based o
 
 ## Skills & Endorsements
 
+Top:
 - Machine Learning
-- C++
 - Statistical Modeling
+- Data Analytics
 - Python
+- Hive
+- Presto
+- Trino
+- Scikit-learn
+- TensorFlow
+- Docker
+- Kubernetes
+- Airflow
+- Predictive Modeling
+
+Old:
+- C++
 - Matlab
 - Data Analytics
 - R
@@ -235,12 +254,41 @@ Developed a system for classifying the cardiovascular health of patients based o
 - Data Visualization
 - C
 - Tableau
-
+- Hive
+- Presto
+- Trino
+- Scikit-learn
+- TensorFlow
+- Docker
+- Kubernetes
+- Airflow
 
 
 ## Volunteer
 
 ---
+### Year Up
+### Interviewer
+##### November 2021 - November 2021
+
+Volunteered time to run mock interviews for candidates participating in the program. 
+
+---
+### Sacred Heart
+### Volunteer
+##### August 2016 - January 2018
+
+Volunteered at Sacred Heart San Jose helping with community improvement and outreach.
+
+---
+### Adobe Tech Summit
+### Volunteer
+##### February 2017 - February 2017
+
+Volunteered to help manage and run the Adobe Tech Summit Robot Challenge. Helped contestants learn the rules, the development system, and answered questions as they developed their robot.
+
+---
+### First Robotics
 ### Team Mentor
 ##### January 2013 - April 2014
 
@@ -253,10 +301,11 @@ Founded and later returned to mentor FIRST Robotics team 3257.
 
 
 ---
+### IEEE
 ### Volunteer Instructor
 ##### April 2012
 
-I volunteered at UC Riverside's IEEE Merit Badge Day to teach over a hundred Boy Scouts basic principles of Engineering in order for them to earn their Energy, Engineering, and Robotics merit badges. 
+Volunteered at UC Riverside's IEEE Merit Badge Day to teach over a hundred Boy Scouts basic principles of Engineering in order for them to earn their Energy, Engineering, and Robotics merit badges. 
 
 
 ### Opportunities you are looking for:
