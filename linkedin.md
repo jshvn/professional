@@ -6,9 +6,9 @@ Data Scientist | Machine Learning Engineer | Adobe
 
 ## Summary
 
-Obsessive reader, learner, traveler. Firm believer in learning on the fly. Failure forces growth.
+I do machine learning and data science things at Adobe. I am fascinated by nascent tech and am currently focused on 3D apps and immersive experiences. Both metaverse and crypto are neat.
 
-Connect with me directly on LinkedIn, or securely via https://keybase.io/ijosh
+I am happiest out on the trail or lost in a foreign city. My partner and family are pretty cool too.
 
 
 ## Experience
