@@ -19,16 +19,22 @@ I am happiest out on the trail or lost in a foreign city. My partner and family 
 ##### January 2020 - Present
 ##### Seattle, WA
 
-Jan 2020 - Present
+Apr 2022 - Present
+3D&I Analytics & Data Science | Adobe 3D & Immersive
+
+Jan 2020 - Apr 2022
 Document Cloud Data Science | Adobe Document Cloud
 
 Products:
 
 * Acrobat, Reader, Scan
+* Substance 3D Stager, Substance 3D Painter, Substance 3D Sampler, Substance 3D Designer
 
 Overview:
 
-Developed machine learning models for: new user on-boarding journey personalization in Acrobat, targeting attrition-risk customers for retention offers, identifying usage patterns and association rules for upsell, and other tasks. I also developed a platform-agnostic unified data model for sourcing data, a core python library to manage all data I/O and model artifacts across projects, and mentored multiple junior team members.
+On the DCDS team I developed or optimized machine learning models for: new user on-boarding journey personalization in Acrobat, targeting attrition-risk customers for retention offers, identifying usage patterns and association rules for upsell, and other tasks. I also developed a platform-agnostic unified data model for sourcing data, a core python library to manage all data I/O and model artifacts across projects, and mentored multiple junior team members.
+
+And I recently joined the 3D&I Analytics & Data Science team to work on Adobe's suite of metaverse-building applications and am very excited for this new chapter!
 
 Highlights:
 * Personalized new user in-product and email on-boarding journey by developing recommender system (latent factor model) to encourage users to engage with specific features
