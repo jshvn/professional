@@ -16,8 +16,12 @@ From the top level directory:
 make
 ```
 
+The generated `resume.pdf` and `coverletter.pdf` files will be placed in the [resume](./resume/) directory.
+
 #### Clean repository objects
 
 ```bash
 make clean
 ```
+
+This will delete any temporary `*.aux`, `*.log`, and `*.pdf` files.

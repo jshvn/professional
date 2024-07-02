@@ -481,7 +481,7 @@
       \ifthenelse{\isundefined{\@mobile}}%
         {}%
         {%
-          \href{\@teluri}{\faMobile\acvHeaderIconSep\@mobile}%
+          \href{tel:\@teluri}{\faMobile\acvHeaderIconSep\@mobile}%
           \setbool{isstart}{false}%
         }%
       \ifthenelse{\isundefined{\@email}}%
@@ -501,7 +501,7 @@
         {}%
         {%
           \ifbool{isstart}{\setbool{isstart}{false}}{\acvHeaderSocialSep}%
-          \href{http://\@homepage}{\faHome\acvHeaderIconSep\@homepage}%
+          \href{https://\@homepage}{\faGlobe\acvHeaderIconSep\@homepage}%
         }%
       \ifthenelse{\isundefined{\@github}}%
         {}%
