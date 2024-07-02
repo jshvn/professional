@@ -1,0 +1,61 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for CV/Resume
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%-------------------------------------------------------------------------------
+% CONFIGURATION
+%-------------------------------------------------------------------------------
+\input{content/configuration.tex}
+
+
+%-------------------------------------------------------------------------------
+% HEADER FOR PERSONAL INFORMATION
+%-------------------------------------------------------------------------------
+\input{content/personal.tex}
+
+
+%-------------------------------------------------------------------------------
+\begin{document}
+
+% Print the header with above personal information
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader[L]
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+\makecvfooter
+  {\today}
+  {Josh Vaughen}
+  {\thepage}
+
+
+%-------------------------------------------------------------------------------
+%	CV/RESUME CONTENT
+%	Each section is imported separately, open each file in turn to modify content
+%-------------------------------------------------------------------------------
+\input{content/summary.tex}
+\input{content/experience.tex}
+% \input{content/honors.tex}
+% \input{content/certificates.tex}
+% \input{content/presentation.tex}
+% \input{content/writing.tex}
+% \input{content/committees.tex}
+\input{content/skills.tex}
+\input{content/education.tex}
+% \input{content/extracurricular.tex}
+
+
+%-------------------------------------------------------------------------------
+\end{document}
