@@ -1,6 +1,6 @@
 ## 💼 Josh's professional info
 
-This repository contains the files necessary to assemble Josh's resume and a copy of his LinkedIn profile. 
+This repository contains the files necessary to assemble Josh's resume, cover letter, and a copy of his LinkedIn profile. 
 
 This repository is a modified and simplified version of [Awesome CV](https://github.com/posquit0/Awesome-CV). For the original work please see that repository. 
 
@@ -16,7 +16,7 @@ From the top level directory:
 make
 ```
 
-The generated `resume.pdf` and `coverletter.pdf` files will be placed in the [resume](./resume/) directory.
+The generated `resume.pdf` and `coverletter.pdf` files will be placed in this top level directory.
 
 #### Clean repository objects
 
