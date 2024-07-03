@@ -482,7 +482,7 @@
       \ifthenelse{\isundefined{\@mobile}}%
         {}%
         {%
-          \href{tel:\@teluri}{\faMobile\acvHeaderIconSep\@mobile}%
+          \href{\@teluri}{\faMobile\acvHeaderIconSep\@mobile}%
           \setbool{isstart}{false}%
         }%
       \ifthenelse{\isundefined{\@email}}%
