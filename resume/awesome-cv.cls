@@ -78,6 +78,7 @@
 \RequirePackage{fontawesome5}
 %\RequirePackage{roboto}
 \RequirePackage[default,opentype]{sourcesanspro}
+\RequirePackage[default]{montserrat}
 % Needed for the photo ID
 \RequirePackage[skins]{tcolorbox}
 % Needed to deal a paragraphs
@@ -163,8 +164,8 @@
 %-------------------------------------------------------------------------------
 %                Configuration for fonts
 %-------------------------------------------------------------------------------
-\newcommand*{\headerfont}{\sourcesanspro}
-\newcommand*{\headerfontlight}{\sourcesansprolight}
+\newcommand*{\headerfont}{\fontfamily{Montserrat}\selectfont}
+\newcommand*{\headerfontlight}{\fontfamily{Montserrat}\selectfont}
 \newcommand*{\footerfont}{\sourcesanspro}
 \newcommand*{\bodyfont}{\sourcesanspro}
 \newcommand*{\bodyfontlight}{\sourcesansprolight}
