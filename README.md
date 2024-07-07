@@ -8,9 +8,9 @@ The original license has been included in this repository.
 
 ## 🛠️ How to build
 
-Docker must be installed and running before building. I prefer to not install LaTeX/TeX Live on the base system, and use the [thomasweise/texlive](https://github.com/thomasWeise/docker-texlive) image instead to build the resume and cover letter.
+Docker must be installed and running before building. I prefer to not install LaTeX/TeX Live on the base system, and use the [thomasweise/texlive](https://github.com/thomasWeise/docker-texlive) image instead to build the resume, CV, and cover letter.
 
-#### Build resume and cover letter
+#### Build resume, CV, and cover letter
 
 From the top level directory:
 
@@ -18,7 +18,7 @@ From the top level directory:
 make
 ```
 
-The generated `resume.pdf` and `coverletter.pdf` files will be placed in this top level directory.
+The generated `resume.pdf`, `cv.pdf`, and `coverletter.pdf` files will be placed in this top level directory.
 
 #### Clean repository objects
 
