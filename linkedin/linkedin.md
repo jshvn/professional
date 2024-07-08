@@ -277,7 +277,7 @@ Old:
 ### Interviewer
 ##### November 2021 - November 2021
 
-Volunteered time to run mock interviews for candidates participating in the program. 
+Volunteered time to run realistic mock interviews for candidates participating in the program. 
 
 ---
 ### Sacred Heart
