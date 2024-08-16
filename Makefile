@@ -1,8 +1,8 @@
-DOCKER = docker run --rm --user $(shell id -u):$(shell id -g) -i -w "/doc" -v "$(shell PWD)":/doc thomasweise/texlive
+OUTPUT_DIR := $(dir $(abspath $(lastword $(MAKEFILE_LIST))))
+DOCKER = docker run --rm --user $(shell id -u):$(shell id -g) -i -w "/doc" -v "$(OUTPUT_DIR)":/doc thomasweise/texlive
 CC = xelatex
 RESUME_DIR = resume
 CONTENT_DIR = resume/content
-OUTPUT_DIR = "$(shell PWD)"
 RESUME_SRCS = $(shell find $(CONTENT_DIR) -name '*.tex')
 
 all: $(foreach x, coverletter resume cv, $x.pdf)
