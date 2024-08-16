@@ -18,7 +18,7 @@ From the top level directory:
 make
 ```
 
-The generated `resume.pdf`, `cv.pdf`, and `coverletter.pdf` files will be placed in this top level directory.
+The generated `resume.pdf`, `cv.pdf`, and `coverletter.pdf` files will be placed in the [generated/](generated/) directory.
 
 #### Clean repository objects
 

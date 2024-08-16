@@ -10,13 +10,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout code
+    - name: Checkout jshvn/professional code
       uses: actions/checkout@master
 
-    - name: Run Makefile with Docker
+    - name: Run make
       run: make
 
-    - name: Upload to Cloudflare R2
+    - name: Upload PDFs to Cloudflare R2
       uses: jakejarvis/s3-sync-action@master
       with:
         args: --acl public-read --follow-symlinks --delete
@@ -24,6 +24,6 @@ jobs:
         AWS_S3_BUCKET: ${{ secrets.CF_R2_BUCKET }}
         AWS_ACCESS_KEY_ID: ${{ secrets.CF_R2_ACCESS_KEY_ID }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.CF_R2_SECRET_ACCESS_KEY }}
-        SOURCE_DIR: 'resume/'
+        SOURCE_DIR: 'generated/'
         DEST_DIR: 'resume/'
         AWS_S3_ENDPOINT: 'https://c35aac75757f08ff03ab9776b2f604ea.r2.cloudflarestorage.com'
