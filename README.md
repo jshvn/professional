@@ -6,6 +6,16 @@ The LaTeX code is a modified and simplified version of [Awesome CV](https://gith
 
 The original license has been included in this repository.
 
+## 📃 Latest copies of resume
+
+There exists a GitHub Action that automatically builds and publishes a copy of my `resume.pdf`, `cv.pdf`, and `coverletter.pdf` to Cloudflare R2 every time a change is committed to the `master` branch of this repository.
+
+Each PDF can be accessed publicly here:
+
+* [resume.pdf](https://r2.ijosh.com/resume.pdf)
+* [cv.pdf](https://r2.ijosh.com/cv.pdf)
+* [coverletter.pdf](https://r2.ijosh.com/coverletter.pdf)
+
 ## 🛠️ How to build
 
 Docker must be installed and running before building. I prefer to not install LaTeX/TeX Live on the base system, and use the [thomasweise/texlive](https://github.com/thomasWeise/docker-texlive) image instead to build the resume, CV, and cover letter.
