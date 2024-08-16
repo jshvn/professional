@@ -1,4 +1,4 @@
-DOCKER = docker run --rm --user $(id -u):$(id -g) -i -w "/doc" -v "$(shell PWD)":/doc thomasweise/texlive
+DOCKER = docker run --rm --user $(shell id -u):$(shell id -g) -i -w "/doc" -v "$(shell PWD)":/doc thomasweise/texlive
 CC = xelatex
 RESUME_DIR = resume
 CONTENT_DIR = resume/content
