@@ -1,0 +1,33 @@
+name: Build Resume and Deploy to Cloudflare R2
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Set up Docker Buildx
+      uses: docker/setup-buildx-action@v2
+
+    - name: Run Makefile with Docker
+      run: make
+
+    - name: Upload to Cloudflare R2
+      uses: s3-sync-action/s3-sync@v1.0.0
+      with:
+        args: --acl public-read --follow-symlinks --delete
+      env:
+        AWS_S3_BUCKET: ${{ secrets.CF_R2_BUCKET }}
+        AWS_ACCESS_KEY_ID: ${{ secrets.CF_R2_ACCESS_KEY_ID }}
+        AWS_SECRET_ACCESS_KEY: ${{ secrets.CF_R2_SECRET_ACCESS_KEY }}
+        AWS_REGION: 'auto'
+        SOURCE_DIR: 'resume/'
+        DEST_DIR: ''
+        AWS_ENDPOINT_URL: 'https://c35aac75757f08ff03ab9776b2f604ea.r2.cloudflarestorage.com'
