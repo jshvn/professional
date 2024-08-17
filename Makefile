@@ -4,11 +4,10 @@ CC = xelatex
 RESUME_DIR = resume
 CONTENT_DIR = resume/content
 OUTPUT_DIR = generated
-RESUME_SRCS = $(shell find $(CONTENT_DIR) -name '*.tex')
 
 all: $(foreach x, coverletter resume cv, $x.pdf)
 
-resume.pdf: $(RESUME_DIR)/resume.tex $(RESUME_SRCS)
+resume.pdf: $(RESUME_DIR)/resume.tex
 	$(DOCKER) $(CC) -output-directory=$(RESUME_DIR) $<
 	mv $(RESUME_DIR)/resume.pdf $(OUTPUT_DIR)
 
