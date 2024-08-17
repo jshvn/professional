@@ -26,4 +26,4 @@ jobs:
         AWS_SECRET_ACCESS_KEY: ${{ secrets.CF_R2_SECRET_ACCESS_KEY }}
         SOURCE_DIR: 'generated/'
         DEST_DIR: ''
-        AWS_S3_ENDPOINT: 'https://c35aac75757f08ff03ab9776b2f604ea.r2.cloudflarestorage.com'
+        AWS_S3_ENDPOINT: https://${{ secrets.CF_ACCOUNT_ID }}.r2.cloudflarestorage.com
