@@ -89,6 +89,8 @@
 \RequirePackage{bookmark}
 % Needed to use multiple columns within the coursework section
 \RequirePackage{multicol}
+% Needed to get the total number of pages for footer
+\RequirePackage{lastpage}
 
 %-------------------------------------------------------------------------------
 %                Configuration for directory locations
