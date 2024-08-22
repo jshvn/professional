@@ -1,6 +1,6 @@
 ## 💼 Josh's professional info
 
-This repository contains a LaTeX project that is used to assemble Josh's resume, curriculum vitae, and cover letter. It also contains a markdown document with a copy of the information from his LinkedIn profile.
+This repository contains a LaTeX project that is used to assemble my resume, curriculum vitae, and cover letter. It also contains a markdown document with a copy of the information from my LinkedIn profile.
 
 The LaTeX code is a modified and simplified version of [Awesome CV](https://github.com/posquit0/Awesome-CV). For the original work please see that repository. 
 
@@ -29,6 +29,10 @@ make
 ```
 
 The generated `resume.pdf`, `cv.pdf`, and `coverletter.pdf` files will be placed in the [generated/](generated/) directory.
+
+#### GitHub Action
+
+This repository is configured with a [GitHub action](.github/workflows/main.yml) that runs the build process and uploads the resulting documents to Cloudflare R2 for viewing over the internet. There are some secrets for the R2 bucket configured on GitHub to facilitate this process. 
 
 #### Clean repository objects
 

@@ -1,4 +1,4 @@
-name: Build Resume and Deploy to Cloudflare R2
+name: Build documents and deploy to Cloudflare R2
 
 on:
   push:
@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout jshvn/professional code
+    - name: Checkout jshvn/professional repo
       uses: actions/checkout@master
 
     - name: Run make
