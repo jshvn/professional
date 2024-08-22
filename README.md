@@ -44,8 +44,8 @@ This will delete any temporary `*.aux`, `*.log`, and `*.pdf` files.
 
 ## 📝 How to modify
 
-To modify the documents, just go ahead and modify the LaTeX directly. The [resume/content](resume/content/) directory contains all of the source material used for each of the above documents. 
+To modify the documents, just go ahead and modify the LaTeX directly. The [documents/content](documents/content/) directory contains all of the source material used for each of the above documents. 
 
-A custom font, montserrat, was used in the resume to match the fonts on [Josh's website](https://ijosh.com). It is located in the [resume/fonts/montserrat](resume/fonts/montserrat/) directory.
+A custom font, montserrat, was used in the resume to match the fonts on [Josh's website](https://ijosh.com). It is located in the [documents/fonts/montserrat](resume/fonts/montserrat/) directory.
 
 There also exists a file [PROMPTS.md](PROMPTS.md) that contains useful prompts for a GPT to create, modify, and update the document content.
