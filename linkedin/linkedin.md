@@ -266,7 +266,7 @@ Old:
 ### Interviewer
 ##### November 2021 - November 2021
 
-Volunteered time to run realistic mock interviews for candidates participating in the program. 
+Volunteered with Year Up to conduct mock interviews, helping underrepresented youth gain practical experience and prepare for successful careers.
 
 ---
 ### Sacred Heart
@@ -280,25 +280,25 @@ Volunteered at Sacred Heart San Jose helping with community improvement and outr
 ### Volunteer
 ##### February 2017 - February 2017
 
-Volunteered to help manage and run the Adobe Tech Summit Robot Challenge. Helped contestants learn the rules, the development system, and answered questions as they developed their robot.
+Volunteered to run the Adobe Tech Summit Robot Challenge, providing technical guidance and support to contestants on rules and development.
 
 ---
 ### First Robotics
-### Team Mentor
+### Team Mentor and Founding Member
 ##### January 2013 - April 2014
 
-Founded and later returned to mentor FIRST Robotics team 3257.
+Founded and mentored FIRST Robotics team 3257, guiding high school students in designing and programming robots for the FRC competitions.
 
-- Volunteer hundreds of hours instructing concepts of robotics to high school students
-- Foster professionalism and soft skills throughout six week build season
-- Volunteer for Sacramento Regional Competition, facilitate pit organization
+• Volunteered hundreds of hours to instruct high school students in robotics concepts as part of the FIRST Robotics Competition (FRC) program
+• Promoted professionalism and soft skills among students throughout the six‑week build season, fostering effective teamwork and leadership
+• Supported the Sacramento Regional Competition by facilitating pit organization and ensuring smooth event operations for the FRC community
 
 ---
 ### IEEE
 ### Volunteer Instructor
 ##### April 2012
 
-Volunteered at UC Riverside's IEEE Merit Badge Day to teach over a hundred Boy Scouts basic principles of Engineering in order for them to earn their Energy, Engineering, and Robotics merit badges. 
+Volunteer for IEEE Merit Badge Day, instructing Boy Scouts in areas of engineering, energy, robotics, electronics, and more for their merit badges.
 
 ### ###############################################################
 ### Opportunities you are looking for:
@@ -336,22 +336,22 @@ Volunteered at UC Riverside's IEEE Merit Badge Day to teach over a hundred Boy S
 #### Member, Corresponding Secretary (13-14), Webmaster (13-14)
 ##### Starting June 2012
 
-- Coordinate and facilitate communications between national headquarters and local chapter
-- Complete redesign of local chapter web presence 
+Served as webmaster, rebuilding the Davis Tau Beta Pi website, and as secretary, coordinating communication between national headquarters and
+the local chapter. As an alumnus, continue to participate in volunteer events and chapter activities.
 
 ---
 ### Institute of Electrical and Electronics Engineers
 #### Member
 ##### Starting September 2010
 
-- Participate in chapter social and professional activities
-- Participate in Micromouse robotics workshops
-- Volunteer for IEEE Boy Scouts Merit Badge Day
+Volunteered for IEEE Boy Scouts Merit Badge Day, Micromouse robotics workshops, peer tutoring, and various chapter activities.
 
 ---
 ### Association for Computing Machinery
 #### Member
 ##### Starting September 2010
+
+Habitual peer tutoring, chapter professional events, and other chapter activities.
 
 
 ## ###############################################################
@@ -403,6 +403,14 @@ Led a team to develop and compete with an autonomous vehicle (NATCAR); awarded t
 ##### 2010 - 2012
 
 Dean's Honors List, ECE Department Student Advisor; active member of Tau Beta Pi, IEEE, ACM; volunteered as a peer tutor.
+
+## ###############################################################
+## Languages
+## ###############################################################
+
+English: native
+Spanish: elementary
+Mandarin: elementary
 
 
 ## ###############################################################
