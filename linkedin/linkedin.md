@@ -1,25 +1,33 @@
 # LinkedIn profile
 
+## ###############################################################
 ## Headline
+## ###############################################################
 
-Data Scientist | Machine Learning Engineer | Adobe
+Machine Learning Engineer | Ex-Adobe
 
 ## Summary
 
-I do machine learning and data science things at Adobe. I am fascinated by nascent tech and am currently focused on 3D apps and immersive experiences. Both metaverse and crypto are neat.
+I am a Machine Learning Engineer with experience developing and deploying models for applications serving millions of users, and have strong communication and collaboration skills honed through extensive cross-functional work with product, engineering, and business teams. I specialize in revenue optimization, user engagement, and personalization, and I am seeking an opportunity to expand my operational and modeling skills. 
 
-I am happiest out on the trail or lost in a foreign city. My partner and family are pretty cool too.
-
-
+## ###############################################################
 ## Experience
+## ###############################################################
+
+### World Explorer
+#### Sabbatical 
+##### April 2023 - Present
+##### Earth
+
+After a life-altering medical event, I took a sabbatical to nearly 60 countries, developing conversational proficiency in two languages and enriching my cultural understanding. This experience honed my adaptability and problem-solving skills, enhancing my effectiveness in fast-paced, results-driven environments.
 
 
 ### Machine Learning Engineer IV
 #### Adobe 
-##### January 2020 - Present
+##### January 2020 - April 2023
 ##### Seattle, WA
 
-Apr 2022 - Present
+Apr 2022 - Apr 2023
 3D&I Analytics & Data Science | Adobe 3D & Immersive
 
 Jan 2020 - Apr 2022
@@ -32,17 +40,14 @@ Products:
 
 Overview:
 
-On the DCDS team I developed or optimized machine learning models for: new user on-boarding journey personalization in Acrobat, targeting attrition-risk customers for retention offers, identifying usage patterns and association rules for upsell, and other tasks. I also developed a platform-agnostic unified data model for sourcing data, a core python library to manage all data I/O and model artifacts across projects, and mentored multiple junior team members.
-
-And I recently joined the 3D&I Analytics & Data Science team to work on Adobe's suite of metaverse-building applications and am very excited for this new chapter!
+Developed models and data engineering systems to enhance user onboarding experiences, product and email personalization, and upsell strategies for the Acrobat ecosystem. I also implemented a shared Python library, Docker containers, and a standard data model to unify and support team operational activities across projects.
 
 Highlights:
-* Personalized new user in-product and email on-boarding journey by developing recommender system (latent factor model) to encourage users to engage with specific features
-* Identified top factors contributing to customer attrition during annual renewal cycle (attrition model, XGBoost) for retention offer targeting
-* Optimized an association rule learning model (apriori algorithm) to work with millions of customer records with reduced compute and time requirements
-* Developed unified data model and system (spanning desktop, web, mobile properties) that is being adopted as source for all team pipeline and machine learning projects
-* Designed a unified core library (python) that transparently handles authentication, model artifact management, model prediction I/O, data I/O, and other common tasks across projects
-* Interviewed, hired, and mentored multiple data engineers and interns
+- Constructed latent variable model to improve new user onboarding, leading to increased activation and subscription rates
+- Utilized XGBoost to identify primary factors influencing customer attrition and guided retention strategies with product teams
+- Refined an implementation of the apriori algorithm to handle larger datasets, optimizing for both computational complexity and rule granularity
+- Architected a containerized data engineering production system used for personalization of millions of in-product and email experiences
+- Hired and mentored several junior engineers and interns
 
 
 ### Data Scientist III
@@ -54,7 +59,7 @@ Nov 2018 - Jan 2020
 Mobile Experimentation and Optimization | Adobe Document Cloud
 
 Jan 2018 - Nov 2018
-Core Development  | Adobe Document Cloud
+Core Development | Adobe Document Cloud
 
 Products:
 
@@ -64,18 +69,16 @@ Products:
 
 Overview:
 
-Took ownership of KPI definition and measurement across multiple products and teams with a standardized model still in use today. Then later joined a small tiger team focused on testing and optimization of our mobile products where I was the sole Data Scientist in charge of experiment creation and measurement, learnings and analyses, attribution modeling, retention modeling, and a number of other tasks.
+Deployed and analyzed A/B tests, developed pricing models, and led activation and retention modeling for Acrobat. Developed a standardized data model for use across multiple products and took ownership of KPI definition and measurement.
 
 Highlights:
-* Led analysis and published learnings from in-product and pricing experimentation for optimization-focused tiger team; experimentation and learnings led to 2x net growth in ARR over year
-* Activation and retention modeling for optimization team across features and subscriptions that is used to inform pricing and offer strategy for go-to-market team
-* Wrote last-touch purchase attribution model used to further refine Document Cloud verb impact and strategy
-* Introduced instrumentation and technique that enabled customer journey centric analyses for multiple teams 
-* Invited to give talks at UC Davis and San Jose State focused on personal experience and technical challenges faced in various projects
-* Adobe Ambassador in recruiting for San Jose State, UC Berkeley, UCLA, Univeristy of Washington; interviewed students for both full time and intern positions
-* Won Document Cloud Star of the Month for pre-emptive KPI definition and measurement for the successful launch of the Adobe Scan mobile application
-* Mentored another intern on an anomaly detection project during his summer internship
-
+- Leveraged collaborative filtering and content-based filtering techniques to refine tool recommendations
+- Used conjoint analysis to improve feature bundling and pricing, increasing revenue and motivating new SKU offerings
+- Applied cohort and churn analysis techniques on users, features, and subscriptions to uncover activation and retention factors
+- Designed, deployed, and analyzed A/B tests focused on revenue impact, materially increasing subscription counts and ARR
+- Guest speaker at UC Davis and San Jose State, discussed technical challenges faced in various projects
+- Recruiting and hiring at SJ State, UC Berkeley, UCLA, and University of Washington, mentored junior team members and interns
+- Won Star of the Month for KPI definition and measurement techniques for newly launched Scan application
 
 
 ### Data Scientist II
@@ -84,7 +87,7 @@ Highlights:
 ##### San Jose, CA
 
 Aug 2016 - Jan 2018
-Core Development  | Adobe Document Cloud
+Core Development | Adobe Document Cloud
 
 Products:
 
@@ -93,19 +96,13 @@ Products:
 
 Overview:
 
-Joined the Document Cloud Mobile organization with the goal of creating a culture of data-driven decision making across Product, Engineering, and Marketing. Worked directly with many stakeholders from all groups on several projects spread across all four Document Cloud mobile applications.
+Implemented a KPI reporting and analytics framework used cross-functionally for Acrobat, Sign, and Scan; including data engineering and an alert system for detected issues.
 
 Highlights:
 
-* Defined parameters for and lead analysis on a series of A/B/C experiments that lead to a 23x increase in signed-in userbase in Acrobat
-* Worked with stakeholders across the broader organization to create and unify a KPI reporting framework for our mobile products which is still used to present
-* Created and maintained infrastructure based on open source technologies including Jenkins and Airflow that manages dataflows for multiple teams across the organization to present
-* Developed crash alert notification system using a standard ARIMA model and later using STL decomposition with Loess smoothing
-* Mentored a summer intern on a project building a real-time web-based visualization platform using AngularJS and Adobe Analytics firehose API
-
-
-
-
+- Conducted in-product A/B tests designed to increase sign-in rates, resulting in the majority of all users transitioning from anonymous to signed-in
+- Developed a unified KPI reporting framework and system based on SMART goals that was adopted across the organization to drive data strategy
+- Created an anomoly detection system leveraging ARIMA and STL decomposition methods, which identified several previously unknown major issues
 
 
 ### Graduate Teaching Assistant
@@ -115,14 +112,12 @@ Highlights:
 
 Overview:
 
-I was a Graduate Teaching Assistant for CS35L Software Construction Laboratory. I led lectures and labs several times a week, as well as held recurring office hours and review sessions before exams.
+Led lectures, wrote exams, and conducted office hours for the CS35L Software Construction course for five quarters.
 
 Highlights:
 
-- Led lecture 3x weekly, office hours 2x weekly
-- Wrote and graded homework and exams
-
-
+- Created, proctored, and graded exams, developed lecture materials, and delivered lectures to the class
+- Provided student support by answering questions on Piazza and holding regular office hours
 
 ---
 ### Software Engineering Intern - Mobile App Development
@@ -132,14 +127,14 @@ Highlights:
 
 Overview:
 
-Joined the Acrobat iOS team to grow my knowledge of iOS and watchOS. Developed a prototype Apple Watch integration with Acrobat that was ahead of its time. Worked on initial Dropbox integration with Acrobat.
+Developed features and fixes, constructed an Apple Watch prototype, contributed to Dropbox integration, and won the 2015 Expo.
 
 Highlights:
 
-- Proposed and developed a prototype presentation control companion application for Acrobat on the Apple Watch
-- Utilized Core Motion API to detect and react to hand gestures, allowing user to control their presentation without button pressing
-- Worked on initial Dropbox cloud provider filesystem integration within Acrobat iOS
-- Winner of the 2015 Intern Project Expo in San Jose for the second year in a row for Apple Watch work
+- Proposed and developed a prototype PDF presentation control app for Acrobat on Apple Watch
+- Utilized Core Motion API to enable gesture-based presentation control, eliminating the need for button presses
+- Contributed to the initial integration of native Dropbox cloud storage within Acrobat for iOS
+- Awarded first place at the 2015 Intern Project Expo in San Jose for Apple Watch work, marking a second year consecutive win
 
 ---
 ### Software Engineering Intern - Mobile App Development
@@ -149,21 +144,16 @@ Highlights:
 
 Overview:
 
-Joined the Adobe Sign team to develop the iOS application. Learned iOS and general software development methodologies on the fly.
+Implemented features and fixes, designed a new Sign UI/UX prototype, wrote automated tests, completed security training, and won the 2014 Expo.
 
 Highlights:
 
 - Implemented four new features, fixed several existing bugs, improved usability of several interfaces
-
-- Designed, implemented, and demoed a new prototype Sign UI/UX for my HackWeek project
-
-- Wrote automated tests for iPhone/iPad on new Appium-based automation framework 
-
+- Designed, implemented, and demonstrated a new prototype for Sign UI/UX as part of my HackWeek project
+- Developed automated tests for iPhone \& iPad using a new Appium-based automation framework
 - Completed Green Belt security training for C/C++ developers 
+- Awarded first place at the 2014 Intern Project Expo in San Jose for UI/UX and automation work
 
-- Winner of the 2014 Intern Project Expo in San Jose for UI/UX and automation work
-
-  
 
 ---
 ### Software QA Engineering Intern
@@ -173,18 +163,15 @@ Highlights:
 
 Overview:
 
-Joined the hardware automation team at Aruba to develop an automated testing platform based on commodity hardware (Raspberry Pi, Roomba robots) and a pan-tilt servo system. This platform was used to automate physical world interaction and 802.11 RF tests.
+Developed an automated testing platform using commodity hardware and a pan-tilt servo system for RF tests.
 
 Highlights:
 
-* Wrote a controlling wrapper API over existing Roomba microcode to simplify and more robustly control the platform
-* Wrote orchestration platform and API to automate control of six free-roaming robots, effectively swarm control, including collision detection and avoidance
-* Wrote controlling API for commodity pan-tilt servo system such that RF heatmaps could be profiled in multiple orientations via automation
-
-- Successfully completed ACMA and ACMP certification courses
-- Presented project outcomes at Aruba Tech Talk; was the Featured Intern on corporate blog
-
-
+- Developed a motion control wrapper API over existing microcode to simplify and enhance flexibility of the platform
+- Built an orchestration platform and API to automate control of six robots, enabling swarm control with collision detection and avoidance
+- Wrote controlling API for commodity pan-tilt servo system such that RF heatmaps could be profiled in multiple orientations automatically
+- Successfully completed ACMA and ACMP (now CA) certification courses, acquiring a comprehensive understanding of Aruba's wireless products
+- Gave a Tech Talk on RF testing automation methods, and was the featured summer intern on Aruba's corporate blog
 
 ---
 ### Software Engineering Intern
@@ -194,18 +181,17 @@ Highlights:
 
 Overview:
 
-Joined the Research and Development Engineering team to build an automated firmware verification and testing system. I also developed tooling frameworks for the now-released GalilSuite application.
+Built an automated firmware verification system and developed tooling frameworks for the GalilSuite application.
 
 Highlights:
 
-* Rewrote existing test software reducing execution time in half
-* Wrote automated firmware verification system with ability to simultaneously support tens of controllers
-* Wrote portable (Windows/Linux) tool for GalilSuite server API audits
+- Modernized and optimized test software, significantly reducing execution time, and wrote portable tool for GalilSuite server API audits
+- Developed an automated firmware verification system supporting multiple controllers on both Windows and Linux
 
 
-
+## ###############################################################
 ## Projects
-
+## ###############################################################
 
 
 ---
@@ -215,8 +201,9 @@ Highlights:
 Developed a system for classifying the cardiovascular health of patients based on time series data consisting of their diastolic and systolic blood pressures. Implemented by hand k-nearest neighbor (KNN) and a back-propagating neural network to achieve ~80% classification accuracy on a sample dataset of 39 patients using 10-fold cross validation. Measured performance in terms of accuracy, precision, recall, sensitivity, specificity, F-measure, ROC curves, and confusion matrices. 
 
 
-
+## ###############################################################
 ## Skills & Endorsements
+## ###############################################################
 
 Top:
 - Machine Learning
@@ -270,7 +257,9 @@ Old:
 - Airflow
 
 
+## ###############################################################
 ## Volunteer
+## ###############################################################
 
 ---
 ### Year Up
@@ -304,8 +293,6 @@ Founded and later returned to mentor FIRST Robotics team 3257.
 - Foster professionalism and soft skills throughout six week build season
 - Volunteer for Sacramento Regional Competition, facilitate pit organization
 
-
-
 ---
 ### IEEE
 ### Volunteer Instructor
@@ -313,13 +300,16 @@ Founded and later returned to mentor FIRST Robotics team 3257.
 
 Volunteered at UC Riverside's IEEE Merit Badge Day to teach over a hundred Boy Scouts basic principles of Engineering in order for them to earn their Energy, Engineering, and Robotics merit badges. 
 
-
+### ###############################################################
 ### Opportunities you are looking for:
+## ###############################################################
 
 - Joining a nonprofit board
 - Skills-based volunteering (pro bono consulting)
 
+### ###############################################################
 ### Causes you care about:
+### ###############################################################
 
 - Arts and Culture
 - Economic Empowerment
@@ -330,14 +320,16 @@ Volunteered at UC Riverside's IEEE Merit Badge Day to teach over a hundred Boy S
 - Disaster and Humanitarian Relief
 - Science and Technology
 
+### ###############################################################
 ### Organizations you support:
+### ###############################################################
 
 - FIRST
 - CERN
 
-
-
+## ###############################################################
 ## Organizations 
+## ###############################################################
 
 ---
 ### Tau Beta Pi
@@ -346,10 +338,6 @@ Volunteered at UC Riverside's IEEE Merit Badge Day to teach over a hundred Boy S
 
 - Coordinate and facilitate communications between national headquarters and local chapter
 - Complete redesign of local chapter web presence 
-
-
-
-
 
 ---
 ### Institute of Electrical and Electronics Engineers
@@ -360,18 +348,15 @@ Volunteered at UC Riverside's IEEE Merit Badge Day to teach over a hundred Boy S
 - Participate in Micromouse robotics workshops
 - Volunteer for IEEE Boy Scouts Merit Badge Day
 
-
-
-
-
 ---
 ### Association for Computing Machinery
 #### Member
 ##### Starting September 2010
 
 
-
+## ###############################################################
 ## Honors and Awards
+## ###############################################################
 
 ---
 ### UC Davis Undergraduate Scholarship
@@ -394,43 +379,35 @@ Volunteered at UC Riverside's IEEE Merit Badge Day to teach over a hundred Boy S
 ##### July 2014
 
 
-
-
+## ###############################################################
 ## Education
+## ###############################################################
 
 ---
 ### University of California, Los Angeles
 #### Master's Degree, Computer Science
 ##### 2014 - 2016
 
-Research emphasis in artificial intelligence, machine learning, and health analytics under the advisement of Professor Majid Sarrafzadeh.
-
-
+Developed an Android application that employed accelerometer, gyroscope, and touch data, fed into a custom-trained LSTM model, to detect and prevent texting while driving. Also led lectures, wrote exams, and conducted office hours for the CS35L course.
 
 ---
 ### University of California, Davis
 #### Bachelor of Science (B.S.), Computer Engineering
 ##### 2012 - 2014
 
-Graduated in June 2014
-
-Computer Engineering major representative in the Electrical & Computer Engineering Undergraduate Program Committee
-
-
-
-
+Led a team to develop and compete with an autonomous vehicle (NATCAR); awarded three scholarships; organized 30+ events as a Tau Beta Pi officer.
 
 ---
 ### University of California, Riverside
 #### Bachelor of Science (B.S.), Computer Engineering
 ##### 2010 - 2012
 
-Deans Honors List
+Dean's Honors List, ECE Department Student Advisor; active member of Tau Beta Pi, IEEE, ACM; volunteered as a peer tutor.
 
 
-
-
+## ###############################################################
 ## Courses
+## ###############################################################
 
 ---
 ### University of California, Riverside
