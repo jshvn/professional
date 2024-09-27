@@ -45,7 +45,7 @@ Developed models and data engineering systems to enhance user onboarding experie
 Highlights:
 - Constructed latent variable model to improve new user onboarding, leading to increased activation and subscription rates
 - Utilized XGBoost to identify primary factors influencing customer attrition and guided retention strategies with product teams
-- Refined an implementation of the apriori algorithm to handle larger datasets, optimizing for both computational complexity and rule granularity
+- Refined an implementation of the Apriori algorithm to handle larger datasets, optimizing for both computational complexity and rule granularity
 - Architected a containerized data engineering production system used for personalization of millions of in-product and email experiences
 - Hired and mentored several junior engineers and interns
 
@@ -102,7 +102,7 @@ Highlights:
 
 - Conducted in-product A/B tests designed to increase sign-in rates, resulting in the majority of all users transitioning from anonymous to signed-in
 - Developed a unified KPI reporting framework and system based on SMART goals that was adopted across the organization to drive data strategy
-- Created an anomoly detection system leveraging ARIMA and STL decomposition methods, which identified several previously unknown major issues
+- Created an anomaly detection system leveraging ARIMA and STL decomposition methods, which identified several previously unknown major issues
 
 
 ### Graduate Teaching Assistant
