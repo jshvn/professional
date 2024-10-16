@@ -682,7 +682,10 @@
     \ifstrempty{#6}
       {}
       {\multicolumn{2}{L{\textwidth}}{\descriptionstyle{#6}} \\}
-  \end{tabular*}%
+  \end{tabular*}
+  % If we do not have an extended description, this can cause the spacing between
+  % entries to not look good. This following condition fixes that
+  \ifstrempty{#6}{\vspace{2.0mm}}{}%
 }
 
 % Define an environment for cvsubentry
