@@ -8,18 +8,18 @@ Machine Learning Engineer | Ex-Adobe
 
 ## Summary
 
-I am a Machine Learning Engineer with experience developing and deploying models for applications serving millions of users, and have strong communication and collaboration skills honed through extensive cross-functional work with product, engineering, and business teams. I specialize in revenue optimization, user engagement, and personalization, and I am seeking an opportunity to expand my operational and modeling skills. 
+Technical leader with 7+ years of experience building and deploying high-impact models, accelerating product development by automating model training and evaluation workflows, and aligning machine learning initiatives with business objectives. Adept at leading cross-functional collaborations, measurably improving user personalization and engagement, and driving subscription revenue growth. Proven expertise in online experimentation and statistical analyses, building scalable and robust data engineering solutions, and operationalizing machine learning systems at web scale.
 
 ## ###############################################################
 ## Experience
 ## ###############################################################
 
-### World Explorer
+### Digital Nomad
 #### Sabbatical 
 ##### April 2023 - Present
 ##### Earth
 
-After a life-altering medical event, I took a sabbatical to nearly 60 countries, developing conversational proficiency in two languages and enriching my cultural understanding. This experience honed my adaptability and problem-solving skills, enhancing my effectiveness in fast-paced, results-driven environments.
+Undertook a professional sabbatical to travel globally while freelancing remotely (nearly 60 countries!) and gained conversational proficiency in two new languages. This experience honed my adaptability and problem‑solving skills, enhancing effectiveness in fast‑paced, results‑driven environments.
 
 
 ### Machine Learning Engineer IV
