@@ -18,14 +18,17 @@
 % CONFIGURATION
 %-------------------------------------------------------------------------------
 \input{content/configuration.tex}
+\newcommand{\jobTitle}{Machine Learning Engineer}
+\newcommand{\companyName}{<company>}
+%-------------------------------------------------------------------------------
 
 
 % PDF Metadata for cover letter
 \hypersetup{%
-  pdftitle={Josh Vaughen's Cover Letter for <company>},
-  pdfauthor={Josh Vaughen, Machine Learning Engineer},
-  pdfsubject={Cover letter for Machine Learning Engineer position at <company>},
-  pdfkeywords={Cover letter, Machine Learning Engineer, <company>, Josh Vaughen}
+  pdftitle={Josh Vaughen's Cover Letter for \companyName{}},
+  pdfauthor={Josh Vaughen, \jobTitle{}},
+  pdfsubject={Cover letter for \jobTitle{} position at \companyName{}},
+  pdfkeywords={Cover letter, \jobTitle{}, \companyName{}, Josh Vaughen}
 }
 
 %-------------------------------------------------------------------------------
@@ -41,13 +44,13 @@
 % The company being applied to
 \recipient
   {Company Recruitment Team}
-  {<Company name>\\<First line company address>\\<Second line company address>}
+  {\companyName{}\\<First line company address>\\<Second line company address>}
 % The date on the letter, default is the date of compilation
 \letterdate{\today}
 % The title of the letter
-\lettertitle{Job Application for Machine Learning Engineer}
+\lettertitle{Job Application for \jobTitle{}}
 % How the letter is opened
-\letteropening{Dear Mr./Ms./Dr. LastName,}
+\letteropening{}
 % How the letter is closed
 \letterclosing{Sincerely,}
 % Any enclosures with the letter
@@ -76,14 +79,25 @@
 %-------------------------------------------------------------------------------
 \begin{cvletter}
 
-\lettersection{About me}
-\input{content/aboutme.tex}
+\lettersection{Overview}
+Results-driven engineer with 7+ years of experience aligning machine learning and data science with business goals, leading cross-functional teams, and deploying scalable models and data systems that drive personalization, engagement, and revenue growth.
 
-\lettersection{Why <company>?}
-<fill out with specifics for this position and company>
+\lettersection{About me}
+% \input{content/aboutme.tex}
+
+Look, I get it—seeing a gap on a resume might raise concerns, especially in today's competitive market. But my resume only reflects part of my story, and it omits a year shaped by life-threatening illness that required hospitalization and significant recovery time.
+
+That experience profoundly changed my life. Facing incredibly difficult challenges and confronting the reality of my own mortality pushed me to become resilient, hopeful, and strong.
+
+As I recovered I hatched a plan to reconnect deeply with myself and to experience the life I thought I had lost, and thus began my journey around the world. I left looking for myself, but somewhere along the way I found so much more.
+
+I'm now eager to resume my career, armed with renewed strength and the engineering skills that made me successful at Adobe. My hope is to find a team open to seeing my potential beyond the gap—someone ready to contribute with new energy and determination.
 
 \lettersection{Why me?}
 <fill out with reasons why I am the right pick for this position>
+
+\lettersection{Why \companyName{}?}
+<fill out with specifics for this position and company>
 
 \end{cvletter}
 
