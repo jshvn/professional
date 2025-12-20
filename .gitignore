@@ -25,3 +25,5 @@
 ## Mac OS X metadata files:
 *.DS_Store
 
+# Task (go-task) checksum cache
+.task/

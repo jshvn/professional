@@ -18,17 +18,34 @@ Each PDF can be accessed publicly here:
 
 ## 🛠️ How to build
 
-Docker must be installed and running before building. I prefer to not install LaTeX/TeX Live on the base system, and use the [thomasweise/texlive](https://github.com/thomasWeise/docker-texlive) image instead to build the resume, CV, and cover letter.
+### Prerequisites
+
+- **Docker** must be installed and running. I prefer to not install LaTeX/TeX Live on the base system, and use the [thomasweise/texlive](https://github.com/thomasWeise/docker-texlive) image instead to build the resume, CV, and cover letter.
+- **[go-task](https://taskfile.dev/)** must be installed. Install via Homebrew: `brew install go-task` or see [installation docs](https://taskfile.dev/installation/).
+
+#### List available tasks
+
+```bash
+task
+```
 
 #### Build resume, CV, and cover letter
 
 From the top level directory:
 
 ```bash
-make
+task all
 ```
 
 The generated `resume.pdf`, `cv.pdf`, and `coverletter.pdf` files will be placed in the [generated/](generated/) directory.
+
+#### Build individual documents
+
+```bash
+task resume      # Build resume.pdf only
+task cv          # Build cv.pdf only
+task coverletter # Build coverletter.pdf only
+```
 
 #### GitHub Action
 
@@ -37,7 +54,7 @@ This repository is configured with a [GitHub action](.github/workflows/main.yml)
 #### Clean repository objects
 
 ```bash
-make clean
+task clean
 ```
 
 This will delete any temporary `*.aux`, `*.log`, and `*.pdf` files.

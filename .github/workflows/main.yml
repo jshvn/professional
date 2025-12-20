@@ -13,8 +13,13 @@ jobs:
     - name: Checkout jshvn/professional repo
       uses: actions/checkout@master
 
-    - name: Run make
-      run: make
+    - name: Install go-task
+      uses: arduino/setup-task@v2
+      with:
+        version: 3.x
+
+    - name: Build documents
+      run: task all
 
     - name: Upload PDFs to Cloudflare R2
       uses: jakejarvis/s3-sync-action@master
