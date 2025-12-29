@@ -666,7 +666,7 @@
   \end{center}
 }
 % Define an entry of cv information
-% Usage: \cventry{<position>}{<title>}{<location>}{<date>}{<description>}
+% Usage: \cventry{<position>}{<title>}{<location>}{<date>}{<summary>}{<details>}
 \newcommand*{\cventry}[6]{%
   \vspace{-1.0mm}
   \setlength\tabcolsep{0pt}

@@ -13,6 +13,10 @@
 % CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
 %
 
+%-------------------------------------------------------------------------------
+% DOCUMENT CLASS
+%-------------------------------------------------------------------------------
+\documentclass[11pt, letterpaper]{awesome-cv}
 
 %-------------------------------------------------------------------------------
 % CONFIGURATION
@@ -22,19 +26,18 @@
 \newcommand{\companyName}{<company>}
 %-------------------------------------------------------------------------------
 
-
-% PDF Metadata for cover letter
-\hypersetup{%
-  pdftitle={Josh Vaughen's Cover Letter for \companyName{}},
-  pdfauthor={Josh Vaughen, \jobTitle{}},
-  pdfsubject={Cover letter for \jobTitle{} position at \companyName{}},
-  pdfkeywords={Cover letter, \jobTitle{}, \companyName{}, Josh Vaughen}
-}
-
 %-------------------------------------------------------------------------------
 % HEADER FOR PERSONAL INFORMATION
 %-------------------------------------------------------------------------------
 \input{content/personal.tex}
+
+% PDF Metadata for cover letter (uses custom variables, so not using shared command)
+\hypersetup{%
+  pdftitle={\fullname's Cover Letter for \companyName{}},
+  pdfauthor={\fullname, \jobTitle{}},
+  pdfsubject={Cover letter for \jobTitle{} position at \companyName{}},
+  pdfkeywords={Cover letter, \jobTitle{}, \companyName{}, \fullname}
+}
 
 
 %-------------------------------------------------------------------------------
@@ -68,7 +71,7 @@
 % Leave any of these blank if they are not needed
 \makecvfooter
   {\today}
-  {Josh Vaughen{\enskip•\enskip}Cover Letter written in {\LaTeX{}}}
+  {\fullname{\enskip•\enskip}Cover Letter written in {\LaTeX{}}}
   {}
 
 % Print the title with above letter information

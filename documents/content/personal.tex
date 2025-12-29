@@ -5,9 +5,14 @@
 % Available options: circle|rectangle,edge/noedge,left/right
 % \photo[circle,noedge,right]{./resume/media/profile}
 \name{Josh}{Vaughen}
-% Including the location here in the \position is a temporary hack. TODO<jshvn>: update this to be included in \address
-\position{Machine Learning Engineer{\enskip•\enskip}Seattle, WA}
-% \address{Seattle, WA}
+
+% Define \fullname to access the internal \@firstname and \@lastname set by \name
+\makeatletter
+\newcommand{\fullname}{\@firstname~\@lastname}
+\makeatother
+
+\position{Machine Learning Engineer}
+\extrainfo{Seattle, WA}
 
 \mobile{+1 916 303 3057}
 \email{josh@vaughen.net}

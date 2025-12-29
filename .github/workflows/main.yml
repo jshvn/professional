@@ -1,9 +1,10 @@
-name: Build documents and deploy to Cloudflare R2
+name: Build
 
 on:
   push:
     branches:
       - master
+  workflow_dispatch:
 
 jobs:
   build-and-deploy:
@@ -11,7 +12,7 @@ jobs:
 
     steps:
     - name: Checkout jshvn/professional repo
-      uses: actions/checkout@master
+      uses: actions/checkout@v4
 
     - name: Set up Docker Buildx
       uses: docker/setup-buildx-action@v3
@@ -34,14 +35,15 @@ jobs:
     - name: Build documents
       run: task all
 
-    - name: Upload PDFs to Cloudflare R2
-      uses: jakejarvis/s3-sync-action@master
+    - name: Configure AWS credentials
+      uses: aws-actions/configure-aws-credentials@v4
       with:
-        args: --acl public-read --follow-symlinks --delete
-      env:
-        AWS_S3_BUCKET: ${{ secrets.CF_R2_BUCKET }}
-        AWS_ACCESS_KEY_ID: ${{ secrets.CF_R2_ACCESS_KEY_ID }}
-        AWS_SECRET_ACCESS_KEY: ${{ secrets.CF_R2_SECRET_ACCESS_KEY }}
-        SOURCE_DIR: 'generated/'
-        DEST_DIR: ''
-        AWS_S3_ENDPOINT: https://${{ secrets.CF_ACCOUNT_ID }}.r2.cloudflarestorage.com
+        aws-access-key-id: ${{ secrets.CF_R2_ACCESS_KEY_ID }}
+        aws-secret-access-key: ${{ secrets.CF_R2_SECRET_ACCESS_KEY }}
+        aws-region: us-east-1  # Region is ignored for R2, but required by the action
+
+    - name: Upload PDFs to Cloudflare R2
+      run: |
+        aws s3 sync documents/generated/ s3://${{ secrets.CF_R2_BUCKET }}/ \
+          --endpoint-url https://${{ secrets.CF_ACCOUNT_ID }}.r2.cloudflarestorage.com \
+          --delete

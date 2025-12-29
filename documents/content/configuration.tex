@@ -1,8 +1,7 @@
 %-------------------------------------------------------------------------------
 % CONFIGURATIONS
 %-------------------------------------------------------------------------------
-% A4 paper size by default, use 'letterpaper' for US letter
-\documentclass[11pt, letterpaper]{awesome-cv}
+% NOTE: \documentclass must be in the main document file (resume.tex, cv.tex, coverletter.tex)
 
 % Configure page margins with geometry
 \geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
@@ -27,3 +26,18 @@
 
 % If you would like to change the social information separator from a pipe (|) to something else
 \renewcommand{\acvHeaderSocialSep}{\quad•\quad}
+
+%-------------------------------------------------------------------------------
+% SHARED PDF METADATA COMMAND
+%-------------------------------------------------------------------------------
+% Usage: \setupPDFMetadata{Document Type}{Additional Keywords}
+% Example: \setupPDFMetadata{Resume}{Machine Learning, Data Science}
+% Note: Must be called after personal.tex which defines \fullname
+\newcommand{\setupPDFMetadata}[2]{%
+  \hypersetup{%
+    pdftitle={\fullname's #1},%
+    pdfauthor={\fullname},%
+    pdfsubject={#1 for \fullname},%
+    pdfkeywords={#1, #2, \fullname}%
+  }%
+}

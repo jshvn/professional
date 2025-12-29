@@ -1,5 +1,7 @@
 ## 💼 Josh's professional info
 
+![Build Status](https://github.com/jshvn/professional/actions/workflows/main.yml/badge.svg)
+
 This repository contains a LaTeX project that is used to assemble my resume, curriculum vitae, and cover letter. It also contains a markdown document with a copy of the information from my LinkedIn profile.
 
 The LaTeX code is a modified and simplified version of [Awesome CV](https://github.com/posquit0/Awesome-CV). For the original work please see that repository. 
@@ -47,7 +49,7 @@ From the top level directory:
 task all
 ```
 
-The generated `resume.pdf`, `cv.pdf`, and `coverletter.pdf` files will be placed in the [generated/](generated/) directory.
+The generated `resume.pdf`, `cv.pdf`, and `coverletter.pdf` files will be placed in the [documents/generated/](documents/generated/) directory.
 
 #### Build individual documents
 

@@ -27,8 +27,8 @@ This repository contains LaTeX source files for building professional documents 
 │   │   ├── certificates.tex    # Certifications
 │   │   ├── honors.tex          # Honors and awards
 │   │   └── ...                 # Other content modules
-│   └── fonts/            # Custom fonts (Montserrat)
-├── generated/            # Output directory for built PDFs
+│   ├── fonts/            # Custom fonts (Montserrat)
+│   └── generated/        # Output directory for built PDFs
 ├── linkedin/             # LinkedIn profile content (markdown)
 └── .github/
     └── workflows/        # GitHub Actions for CI/CD
@@ -92,14 +92,6 @@ A GitHub Action automatically builds and publishes PDFs to Cloudflare R2 when ch
 - https://r2.ijosh.com/resume.pdf
 - https://r2.ijosh.com/cv.pdf
 - https://r2.ijosh.com/coverletter.pdf
-
-## GPT/AI Assistance
-
-The `PROMPTS.md` file contains useful prompts for AI-assisted resume customization and review. Use these prompts to:
-
-- Tailor the resume for specific job descriptions
-- Get professional resume review feedback
-- Optimize bullet points using STAR method
 
 ## Common Tasks for Copilot
 

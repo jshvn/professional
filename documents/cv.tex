@@ -13,24 +13,23 @@
 % CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
 %
 
+%-------------------------------------------------------------------------------
+% DOCUMENT CLASS
+%-------------------------------------------------------------------------------
+\documentclass[11pt, letterpaper]{awesome-cv}
 
 %-------------------------------------------------------------------------------
 % CONFIGURATION
 %-------------------------------------------------------------------------------
 \input{content/configuration.tex}
 
-% PDF Metadata for curriculum vitae
-\hypersetup{%
-  pdftitle={Josh Vaughen's Curriculum Vitae},
-  pdfauthor={Josh Vaughen, Machine Learning Engineer},
-  pdfsubject={Curriculum vitae for Josh Vaughen},
-  pdfkeywords={Curriculum vitae, Machine Learning Engineer, Josh Vaughen}
-}
-
 %-------------------------------------------------------------------------------
 % HEADER FOR PERSONAL INFORMATION
 %-------------------------------------------------------------------------------
 \input{content/personal.tex}
+
+% PDF Metadata for curriculum vitae (must be after personal.tex to access name variables)
+\setupPDFMetadata{Curriculum Vitae}{Machine Learning Engineer}
 
 
 %-------------------------------------------------------------------------------
@@ -44,7 +43,7 @@
 % Leave any of these blank if they are not needed
 \makecvfooter
   {\today}
-  {Josh Vaughen{\enskip•\enskip}Curriculum Vitae written in {\LaTeX{}}}
+  {\fullname{\enskip•\enskip}Curriculum Vitae written in {\LaTeX{}}}
   {\thepage}
 
 

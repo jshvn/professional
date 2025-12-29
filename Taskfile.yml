@@ -5,9 +5,9 @@ vars:
     sh: pwd
   IMAGE_NAME: jshvn-texlive
   DOCKER: docker run --rm --user $(id -u):$(id -g) -i -w "/doc" -v "{{.GIT_DIR}}":/doc {{.IMAGE_NAME}}
-  CC: xelatex
+  CC: xelatex -interaction=nonstopmode -halt-on-error
   DOCUMENTS_DIR: documents
-  OUTPUT_DIR: generated
+  OUTPUT_DIR: documents/generated
 
 tasks:
   default:
@@ -43,10 +43,9 @@ tasks:
     desc: Build resume, CV, and cover letter
     deps:
       - build-image
-    cmds:
-      - task: resume
-      - task: coverletter
-      - task: cv
+      - resume
+      - coverletter
+      - cv
 
   resume:
     desc: Build resume.pdf
@@ -93,4 +92,4 @@ tasks:
   clean:
     desc: Remove generated PDF and auxiliary files
     cmds:
-      - rm -rf {{.OUTPUT_DIR}}/*.pdf {{.DOCUMENTS_DIR}}/*.pdf {{.DOCUMENTS_DIR}}/*.log {{.DOCUMENTS_DIR}}/*.aux
+      - rm -rf {{.OUTPUT_DIR}}/*.pdf {{.DOCUMENTS_DIR}}/*.pdf {{.DOCUMENTS_DIR}}/*.log {{.DOCUMENTS_DIR}}/*.aux {{.DOCUMENTS_DIR}}/*.out
