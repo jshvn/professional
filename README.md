@@ -20,8 +20,18 @@ Each PDF can be accessed publicly here:
 
 ### Prerequisites
 
-- **Docker** must be installed and running. I prefer to not install LaTeX/TeX Live on the base system, and use the [thomasweise/texlive](https://github.com/thomasWeise/docker-texlive) image instead to build the resume, CV, and cover letter.
+- **Docker** must be installed and running. This project uses a custom Docker image based on [texlive/texlive:latest-small](https://hub.docker.com/r/texlive/texlive) with additional LaTeX packages required for building the documents.
 - **[go-task](https://taskfile.dev/)** must be installed. Install via Homebrew: `brew install go-task` or see [installation docs](https://taskfile.dev/installation/).
+
+#### Build the Docker image (first time only)
+
+Before building documents for the first time, you need to build the custom Docker image:
+
+```bash
+task build-image
+```
+
+This creates a local Docker image named `jshvn-texlive` with all required TeX Live packages.
 
 #### List available tasks
 

@@ -668,7 +668,7 @@
 % Define an entry of cv information
 % Usage: \cventry{<position>}{<title>}{<location>}{<date>}{<description>}
 \newcommand*{\cventry}[6]{%
-  \vspace{-2.0mm}
+  \vspace{-1.0mm}
   \setlength\tabcolsep{0pt}
   \setlength{\extrarowheight}{0pt}
   \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\textwidth - 4.5cm} R{4.5cm}}
@@ -763,7 +763,7 @@
 % Define a line of cv information(courselist)
 % Usage: \cvcourselist{<type>}{<courselist>}
 \newcommand*{\cvcourselist}[2]{%
-    \vspace{-1.3cm}
+    \vspace{-0.8cm}
 	\courselisttypestyle{#1} & \courselistsetstyle{#2} \\
 }
 
@@ -777,7 +777,7 @@
 }{%
   \end{itemize}
   \end{justify}
-  \vspace{-4.0mm}
+  \vspace{-1.0mm}
 }
 
 

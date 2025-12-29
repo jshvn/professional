@@ -36,13 +36,14 @@ This repository contains LaTeX source files for building professional documents 
 
 ## Build System
 
-This project uses **[go-task](https://taskfile.dev/)** for building documents. Docker is required to run the LaTeX compilation using the `thomasweise/texlive` image.
+This project uses **[go-task](https://taskfile.dev/)** for building documents. Docker is required to run the LaTeX compilation using a custom Docker image based on `texlive/texlive:latest-small`.
 
 ### Available Tasks
 
 | Task         | Description                              |
 |--------------|------------------------------------------|
 | `task`       | List all available tasks (default)       |
+| `task build-image` | Build the custom LaTeX Docker image (required first time) |
 | `task all`   | Build resume, CV, and cover letter       |
 | `task resume`| Build resume.pdf only                    |
 | `task cv`    | Build cv.pdf only                        |

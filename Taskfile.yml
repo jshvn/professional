@@ -3,7 +3,8 @@ version: "3"
 vars:
   GIT_DIR:
     sh: pwd
-  DOCKER: docker run --rm --user $(id -u):$(id -g) -i -w "/doc" -v "{{.GIT_DIR}}":/doc thomasweise/texlive
+  IMAGE_NAME: jshvn-texlive
+  DOCKER: docker run --rm --user $(id -u):$(id -g) -i -w "/doc" -v "{{.GIT_DIR}}":/doc {{.IMAGE_NAME}}
   CC: xelatex
   DOCUMENTS_DIR: documents
   OUTPUT_DIR: generated
@@ -14,18 +15,47 @@ tasks:
     cmds:
       - task --list
 
+  build-image:
+    desc: Build the custom LaTeX Docker image
+    run: once
+    sources:
+      - Dockerfile
+    status:
+      - docker image inspect {{.IMAGE_NAME}} >/dev/null 2>&1
+    cmds:
+      - docker build -t {{.IMAGE_NAME}} .
+
+  image-status:
+    desc: Check if the Docker image is built and available
+    cmds:
+      - |
+        if docker image inspect {{.IMAGE_NAME}} >/dev/null 2>&1; then
+          echo "✓ Docker image '{{.IMAGE_NAME}}' is available"
+          docker image inspect {{.IMAGE_NAME}} --format 'Created: {{`{{.Created}}`}}  Size: {{`{{.Size}}`}} bytes'
+        else
+          echo "✗ Docker image '{{.IMAGE_NAME}}' is NOT available"
+          echo "Run 'task build-image' to build it"
+          exit 1
+        fi
+    silent: true
+
   all:
     desc: Build resume, CV, and cover letter
     deps:
-      - resume
-      - coverletter
-      - cv
+      - build-image
+    cmds:
+      - task: resume
+      - task: coverletter
+      - task: cv
 
   resume:
     desc: Build resume.pdf
+    deps:
+      - build-image
     sources:
       - "{{.DOCUMENTS_DIR}}/resume.tex"
       - "{{.DOCUMENTS_DIR}}/content/*.tex"
+      - "{{.DOCUMENTS_DIR}}/awesome-cv.cls"
     generates:
       - "{{.OUTPUT_DIR}}/resume.pdf"
     cmds:
@@ -34,9 +64,12 @@ tasks:
 
   coverletter:
     desc: Build coverletter.pdf
+    deps:
+      - build-image
     sources:
       - "{{.DOCUMENTS_DIR}}/coverletter.tex"
       - "{{.DOCUMENTS_DIR}}/content/*.tex"
+      - "{{.DOCUMENTS_DIR}}/awesome-cv.cls"
     generates:
       - "{{.OUTPUT_DIR}}/coverletter.pdf"
     cmds:
@@ -45,9 +78,12 @@ tasks:
 
   cv:
     desc: Build cv.pdf
+    deps:
+      - build-image
     sources:
       - "{{.DOCUMENTS_DIR}}/cv.tex"
       - "{{.DOCUMENTS_DIR}}/content/*.tex"
+      - "{{.DOCUMENTS_DIR}}/awesome-cv.cls"
     generates:
       - "{{.OUTPUT_DIR}}/cv.pdf"
     cmds:
