@@ -77,7 +77,9 @@
 % Needed to manage math fonts
 \RequirePackage{unicode-math}
 % Needed to use icons from font-awesome
-\RequirePackage{fontawesome5}
+\RequirePackage{fontawesome6}
+% Needed for accessibility support (screen reader alt text)
+\RequirePackage{accsupp}
 %\RequirePackage{roboto}
 \RequirePackage[default,opentype]{sourcesanspro}
 \RequirePackage[default]{montserrat}
@@ -317,6 +319,14 @@
 % Usage: \twitter{<twitter handle>}
 \newcommand*{\twitter}[1]{\def\@twitter{#1}}
 
+% Defines writer's X (formerly Twitter) (optional)
+% Usage: \x{<x account>}
+\newcommand*{\x}[1]{\def\@x{#1}}
+
+% Defines writer's Telegram (optional)
+% Usage: \telegram{<Telegram username>}
+\newcommand*{\telegram}[1]{\def\@telegram{#1}}
+
 % Defines writer's Mastodon (optional)
 % Usage: \mastodon{<instance>}{<mastodon-nick>}
 \newcommand*{\mastodon}[2]{\def\@mastodoninstance{#1}\def\@mastodonname{#2}}
@@ -367,6 +377,10 @@
 % Defines writer's extra information (optional)
 % Usage: \extrainfo{<extra information>}
 \newcommand*{\extrainfo}[1]{\def\@extrainfo{#1}}
+
+% Defines writer's address for social line (optional)
+% Usage: \myaddress{<address>}
+\newcommand*{\myaddress}[1]{\def\@myaddress{#1}}
 
 % Defines writer's quote (optional)
 % Usage: \quote{<quote>}
@@ -419,7 +433,7 @@
 \newcommand{\acvHeaderAfterPositionSkip}{.4mm}
 \newcommand{\acvHeaderAfterAddressSkip}{-.5mm}
 \newcommand{\acvHeaderIconSep}{\space}
-\newcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+\newcommand{\acvHeaderSocialSep}{\BeginAccSupp{ActualText={}}\quad\textbar\quad\EndAccSupp{}}
 \newcommand{\acvHeaderAfterSocialSkip}{6mm}
 \newcommand{\acvHeaderAfterQuoteSkip}{5mm}
 
@@ -442,6 +456,12 @@
 % Use to execute conditional statements by checking empty string
 \newcommand*{\ifempty}[3]{\ifthenelse{\isempty{#1}}{#2}{#3}}
 
+% Accessibility helper: provides alt text for icons
+\newcommand{\faAlt}[3]{%
+  \BeginAccSupp{ActualText={#1}}%
+    \mbox{#2\acvHeaderIconSep#3}%
+  \EndAccSupp{}%
+}
 
 %-------------------------------------------------------------------------------
 %                Commands for elements of CV structure
@@ -480,7 +500,7 @@
     \headerfirstnamestyle{\@firstname}\headerlastnamestyle{{}\acvHeaderNameDelim\@lastname}%
     \\[\acvHeaderAfterNameSkip]%
     \ifthenelse{\isundefined{\@position}}{}{\headerpositionstyle{\@position\\[\acvHeaderAfterPositionSkip]}}%
-    \ifthenelse{\isundefined{\@address}}{}{\headeraddressstyle{\@address\\[\acvHeaderAfterAddressSkip]}}%
+    \ifthenelse{\isundefined{\@address}}{}{\headeraddressstyle{\faLocationDot\acvHeaderIconSep\@address\\[\acvHeaderAfterAddressSkip]}}%
     \headersocialstyle{%
       \newbool{isstart}%
       \setbool{isstart}{true}%
@@ -501,19 +521,19 @@
         {%
           \ifbool{isstart}{\setbool{isstart}{false}}{\acvHeaderSocialSep}%
           % \mbox prevents wrapping of elements%
-          \mbox{\faBirthdayCake\acvHeaderIconSep\@dateofbirth}%
+          \mbox{\faCakeCandles\acvHeaderIconSep\@dateofbirth}%
         }%
       \ifthenelse{\isundefined{\@homepage}}%
         {}%
         {%
           \ifbool{isstart}{\setbool{isstart}{false}}{\acvHeaderSocialSep}%
-          \href{https://\@homepage}{\faGlobe\acvHeaderIconSep\@homepage}%
+          \href{https://\@homepage}{\faHouseChimney\acvHeaderIconSep\@homepage}%
         }%
       \ifthenelse{\isundefined{\@github}}%
         {}%
         {%
           \ifbool{isstart}{\setbool{isstart}{false}}{\acvHeaderSocialSep}%
-          \href{https://github.com/\@github}{\faGithubSquare\acvHeaderIconSep\@github}%
+          \href{https://github.com/\@github}{\faSquareGithub\acvHeaderIconSep\@github}%
         }%
       \ifthenelse{\isundefined{\@gitlab}}%
         {}%
@@ -551,6 +571,18 @@
           \ifbool{isstart}{\setbool{isstart}{false}}{\acvHeaderSocialSep}%
           \href{https://twitter.com/\@twitter}{\faTwitter\acvHeaderIconSep\@twitter}%
         }%
+      \ifthenelse{\isundefined{\@x}}%
+        {}%
+        {%
+          \ifbool{isstart}{\setbool{isstart}{false}}{\acvHeaderSocialSep}%
+          \href{https://x.com/\@x}{\faXTwitter\acvHeaderIconSep\@x}%
+        }%
+      \ifthenelse{\isundefined{\@telegram}}%
+        {}%
+        {%
+          \ifbool{isstart}{\setbool{isstart}{false}}{\acvHeaderSocialSep}%
+          \href{https://t.me/\@telegram}{\faTelegram\acvHeaderIconSep\@telegram}%
+        }%
       \ifthenelse{\isundefined{\@mastodonname}}%
         {}%
         {%
@@ -579,7 +611,7 @@
         {}%
         {%
           \ifbool{isstart}{\setbool{isstart}{false}}{\acvHeaderSocialSep}%
-          \href{https://www.xing.com/profile/\@xing}{\faXingSquare\acvHeaderIconSep\@xing}
+          \href{https://www.xing.com/profile/\@xing}{\faSquareXing\acvHeaderIconSep\@xing}
         }%
       \ifthenelse{\isundefined{\@medium}}%
         {}%
@@ -610,6 +642,12 @@
         {%
           \ifbool{isstart}{\setbool{isstart}{false}}{\acvHeaderSocialSep}%
           \@extrainfo%
+        }%
+      \ifthenelse{\isundefined{\@myaddress}}%
+        {}%
+        {%
+          \ifbool{isstart}{\setbool{isstart}{false}}{\acvHeaderSocialSep}%
+          \faLocationDot\acvHeaderIconSep\@myaddress%
         }%
     } \\[\acvHeaderAfterSocialSkip]%
     \ifthenelse{\isundefined{\@quote}}%

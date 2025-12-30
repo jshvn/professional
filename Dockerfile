@@ -10,7 +10,7 @@ LABEL description="TeX Live environment for building resume, CV, and cover lette
 # Note: Some packages (array, multicol, ifxetex) are part of core LaTeX bundles
 RUN tlmgr install \
     # Font packages
-    fontawesome5 \
+    fontawesome6 \
     sourcesanspro \
     # Layout and formatting
     enumitem \
@@ -27,6 +27,8 @@ RUN tlmgr install \
     # Font configuration
     fontaxes \
     mweights \
+    # Accessibility support
+    accsupp \
     # Git integration for PDF metadata (gitinfo2 and its dependencies)
     gitinfo2 \
     eso-pic
