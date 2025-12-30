@@ -10,7 +10,7 @@ The original license has been included in this repository.
 
 ## 📃 Latest copies of resume
 
-There exists a GitHub Action that automatically builds and publishes a copy of my `resume.pdf`, `cv.pdf`, and `coverletter.pdf` to Cloudflare R2 every time a change is committed to the `master` branch of this repository.
+There exists a GitHub Action that automatically builds and publishes a copy of my `resume.pdf`, `cv.pdf`, and `coverletter.pdf` to Cloudflare R2 every time a change is committed to the `main` branch of this repository.
 
 Each PDF can be accessed publicly here:
 
