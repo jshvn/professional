@@ -41,9 +41,11 @@ tasks:
     desc: Build resume, CV, and cover letter
     deps:
       - build-image
-      - resume
-      - coverletter
-      - cv
+      - git-info
+    cmds:
+      - task: resume
+      - task: coverletter
+      - task: cv
 
   resume:
     desc: Build resume.pdf

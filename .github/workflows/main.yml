@@ -40,9 +40,6 @@ jobs:
       with:
         version: 3.x
 
-    - name: Generate git metadata
-      run: ./scripts/generate-git-info.sh
-
     - name: Build documents
       run: task all
 
