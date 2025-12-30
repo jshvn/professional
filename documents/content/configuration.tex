@@ -37,14 +37,14 @@
 %-------------------------------------------------------------------------------
 % Usage: \setupPDFMetadata{Document Type}{Additional Keywords}
 % Example: \setupPDFMetadata{Resume}{Machine Learning, Data Science}
-% Note: Must be called after personal.tex which defines \fullname
+% Note: Must be called after personal.tex which defines \myfullname
 % Note: Includes git branch and commit info from gitinfo2 package
 \newcommand{\setupPDFMetadata}[2]{%
   \hypersetup{%
-    pdftitle={\fullname's #1},%
-    pdfauthor={\fullname},%
-    pdfsubject={#1 for \fullname},%
-    pdfkeywords={#1, #2, \fullname},%
+    pdftitle={\myfullname's #1},%
+    pdfauthor={\myfullname <\myemail>},%
+    pdfsubject={#1 for \myfullname},%
+    pdfkeywords={#1, #2, \myfullname},%
     pdfproducer={LaTeX - \gitAbbrevHash{} on \gitBranch}%
   }%
 }

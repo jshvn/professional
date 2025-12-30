@@ -1,23 +1,30 @@
 %-------------------------------------------------------------------------------
-%	PERSONAL INFORMATION
+%	REUSABLE PERSONAL INFO COMMANDS
+%	These store personal info as simple strings for use in expandable contexts
+%-------------------------------------------------------------------------------
+% Store values directly (not via internal \@commands) for hyperref compatibility
+\newcommand{\myfullname}{Josh Vaughen}
+\newcommand{\myfirstname}{Josh}
+\newcommand{\mylastname}{Vaughen}
+\newcommand{\myposition}{Machine Learning Engineer}
+\newcommand{\myemail}{josh@vaughen.net}
+\newcommand{\myhomepage}{ijosh.com}
+\newcommand{\mylocation}{Seattle, WA}
+\newcommand{\mymobile}{+1 916 303 3057}
+
+%-------------------------------------------------------------------------------
+%	AWESOME-CV PERSONAL INFORMATION
 %	Comment any of the lines below if they are not required
 %-------------------------------------------------------------------------------
 % Available options: circle|rectangle,edge/noedge,left/right
 % \photo[circle,noedge,right]{./resume/media/profile}
-\name{Josh}{Vaughen}
-
-% Define \fullname to access the internal \@firstname and \@lastname set by \name
-\makeatletter
-\newcommand{\fullname}{\@firstname~\@lastname}
-\makeatother
-
-\position{Machine Learning Engineer}
-\extrainfo{Seattle, WA}
-
-\mobile{+1 916 303 3057}
-\email{josh@vaughen.net}
+\name{\myfirstname}{\mylastname}
+\position{\myposition}
+\extrainfo{\mylocation}
+\mobile{\mymobile}
+\email{\myemail}
 %\dateofbirth{January 1st, 1970}
-\homepage{ijosh.com}
+\homepage{\myhomepage}
 % \github{jshvn}
 % \linkedin{ijosh}
 % \gitlab{gitlab-id}
@@ -31,6 +38,5 @@
 % \googlescholar{googlescholar-id}{name-to-display}
 %% \firstname and \lastname will be used
 % \googlescholar{googlescholar-id}{}
-%\extrainfo{Seattle, WA}
 
 % \quote{``Be the change that you want to see in the world."}

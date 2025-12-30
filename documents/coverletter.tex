@@ -22,23 +22,18 @@
 % CONFIGURATION
 %-------------------------------------------------------------------------------
 \input{content/configuration.tex}
-\newcommand{\jobTitle}{Machine Learning Engineer}
-\newcommand{\companyName}{<company>}
-%-------------------------------------------------------------------------------
 
 %-------------------------------------------------------------------------------
 % HEADER FOR PERSONAL INFORMATION
 %-------------------------------------------------------------------------------
 \input{content/personal.tex}
 
-% PDF Metadata for cover letter (uses custom variables, so not using shared command)
-\hypersetup{%
-  pdftitle={\fullname's Cover Letter for \companyName{}},
-  pdfauthor={\fullname, \jobTitle{}},
-  pdfsubject={Cover letter for \jobTitle{} position at \companyName{}},
-  pdfkeywords={Cover letter, \jobTitle{}, \companyName{}, \fullname},
-  pdfproducer={LaTeX - \gitAbbrevHash{} on \gitBranch}
-}
+% Cover letter specific variables (after personal.tex to access \myposition)
+\newcommand{\jobTitle}{<job title>}
+\newcommand{\companyName}{<company>}
+
+% PDF Metadata for cover letter (must be after personal.tex to access name variables)
+\setupPDFMetadata{Cover Letter}{\myposition}
 
 
 %-------------------------------------------------------------------------------
@@ -72,7 +67,7 @@
 % Leave any of these blank if they are not needed
 \makecvfooter
   {\today}
-  {\fullname{\enskip•\enskip}Written in {\LaTeX{}}{\enskip•\enskip}\gitAbbrevHash{} on \gitBranch}
+  {\myfullname{\enskip•\enskip}Written in {\LaTeX{}}{\enskip•\enskip}\gitAbbrevHash{} on \gitBranch}
   {}
 
 % Print the title with above letter information
