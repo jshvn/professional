@@ -35,6 +35,7 @@ tasks:
       - .git/gitHeadInfo.gin
     cmds:
       - ./scripts/generate-git-info.sh
+      - cat .git/gitHeadInfo.gin
 
   all:
     desc: Build resume, CV, and cover letter
