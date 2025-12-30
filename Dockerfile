@@ -26,7 +26,10 @@ RUN tlmgr install \
     tikzfill \
     # Font configuration
     fontaxes \
-    mweights
+    mweights \
+    # Git integration for PDF metadata (gitinfo2 and its dependencies)
+    gitinfo2 \
+    eso-pic
 
 # Create fontconfig cache directory with proper permissions
 # This prevents "No writable cache directories" errors when running as non-root

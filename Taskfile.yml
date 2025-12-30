@@ -25,19 +25,16 @@ tasks:
     cmds:
       - docker build -t {{.IMAGE_NAME}} .
 
-  image-status:
-    desc: Check if the Docker image is built and available
+  git-info:
+    desc: Generate git metadata for gitinfo2 package
+    run: once
+    sources:
+      - .git/HEAD
+      - .git/refs/heads/**
+    generates:
+      - .git/gitHeadInfo.gin
     cmds:
-      - |
-        if docker image inspect {{.IMAGE_NAME}} >/dev/null 2>&1; then
-          echo "✓ Docker image '{{.IMAGE_NAME}}' is available"
-          docker image inspect {{.IMAGE_NAME}} --format 'Created: {{`{{.Created}}`}}  Size: {{`{{.Size}}`}} bytes'
-        else
-          echo "✗ Docker image '{{.IMAGE_NAME}}' is NOT available"
-          echo "Run 'task build-image' to build it"
-          exit 1
-        fi
-    silent: true
+      - ./scripts/generate-git-info.sh
 
   all:
     desc: Build resume, CV, and cover letter
@@ -51,10 +48,12 @@ tasks:
     desc: Build resume.pdf
     deps:
       - build-image
+      - git-info
     sources:
       - "{{.DOCUMENTS_DIR}}/resume.tex"
       - "{{.DOCUMENTS_DIR}}/content/*.tex"
       - "{{.DOCUMENTS_DIR}}/awesome-cv.cls"
+      - ".git/gitHeadInfo.gin"
     generates:
       - "{{.OUTPUT_DIR}}/resume.pdf"
     cmds:
@@ -65,10 +64,12 @@ tasks:
     desc: Build coverletter.pdf
     deps:
       - build-image
+      - git-info
     sources:
       - "{{.DOCUMENTS_DIR}}/coverletter.tex"
       - "{{.DOCUMENTS_DIR}}/content/*.tex"
       - "{{.DOCUMENTS_DIR}}/awesome-cv.cls"
+      - ".git/gitHeadInfo.gin"
     generates:
       - "{{.OUTPUT_DIR}}/coverletter.pdf"
     cmds:
@@ -79,10 +80,12 @@ tasks:
     desc: Build cv.pdf
     deps:
       - build-image
+      - git-info
     sources:
       - "{{.DOCUMENTS_DIR}}/cv.tex"
       - "{{.DOCUMENTS_DIR}}/content/*.tex"
       - "{{.DOCUMENTS_DIR}}/awesome-cv.cls"
+      - ".git/gitHeadInfo.gin"
     generates:
       - "{{.OUTPUT_DIR}}/cv.pdf"
     cmds:
@@ -93,3 +96,4 @@ tasks:
     desc: Remove generated PDF and auxiliary files
     cmds:
       - rm -rf {{.OUTPUT_DIR}}/*.pdf {{.DOCUMENTS_DIR}}/*.pdf {{.DOCUMENTS_DIR}}/*.log {{.DOCUMENTS_DIR}}/*.aux {{.DOCUMENTS_DIR}}/*.out
+      - rm -f .git/gitHeadInfo.gin
