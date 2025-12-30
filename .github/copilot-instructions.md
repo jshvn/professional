@@ -87,7 +87,7 @@ When modifying content:
 
 ## CI/CD
 
-A GitHub Action automatically builds and publishes PDFs to Cloudflare R2 when changes are committed to the `master` branch. The published documents are available at:
+A GitHub Action automatically builds and publishes PDFs to Cloudflare R2 when changes are committed to the `main` branch. The published documents are available at:
 
 - https://r2.ijosh.com/resume.pdf
 - https://r2.ijosh.com/cv.pdf
